@@ -1,0 +1,319 @@
+//------------------------------------------------------------------------
+// For The Schools Landing Pages CSS
+//------------------------------------------------------------------------
+
+
+header.referral{
+	padding-top:50px;
+	background: url(../img/bg-header-referral-lp.jpg) no-repeat top center;
+	min-height: 400px;
+	font-family: 'bentonsanslight', Helvetica, Arial, sans-serif;  
+	height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	h1{
+		color:@whiteColor;
+		font-size:66px;
+		text-decoration: none;
+		border:none;
+		text-align: center;
+	}
+
+	h2{
+		color:@whiteColor;
+		font-size:40px;
+		text-decoration: none;
+		border:none;
+		text-align: center;
+		font-family: @betonLight;
+	}
+
+	form{
+		position: relative;
+		margin:0px 20px;
+		background: @databoxColor;
+		bottom:-100px;
+		height:auto;
+		padding:20px 20px;
+		color:@whiteColor;
+
+		@media (max-width: 767px) {
+			height:auto;
+		}
+		p{
+			font-size: @font-medium;
+			text-align: center;
+			color:@whiteColor;
+			font-family: @betonMedium;
+			margin-top:0px;
+			padding-top:0px;
+		}
+		.form-group{
+			text-align: center;
+			input[type="text"]{
+				color:@grayColor;
+				border-color:@whiteColor;
+				vertical-align: middle;
+				width: 300px;
+				margin-right: 5px;
+
+				@media (max-width: 767px) {
+					width: 100%;
+					margin-bottom:5px;
+					margin-right: 0px;
+				}
+
+				@media (min-width: 767px) and (max-width: 1200px)  {
+					width: 162px;
+				}
+			}
+
+			input[type="submit"]{
+				padding-left:40px;
+				padding-right:40px;
+			}
+		}
+	}
+}
+
+article#pros{
+	padding-top:100px;
+	padding-bottom:40px;
+	img{
+		display: block;
+		margin:0 auto;
+	}
+	.container{
+		div:first-of-type{
+			margin-top:50px;
+		}
+	}
+	section{
+		.full-circle{
+			text-align: center;
+			margin:0 auto;
+			span{
+				color:@whiteColor;
+				font-size:74px;
+				margin-top:20px;
+				display: block;
+				padding-top:33px;
+			}
+		}
+		h3{
+			text-align: center;
+			font-size: @font-large;
+			font-family: @betonBold;
+		}
+		p{
+			text-align: center;
+		}
+	}
+}
+
+
+
+header.gifcard{
+	padding-top:40px;
+	background: url(../img/bg-header-giftcard-lp.jpg) no-repeat top center;
+	min-height: 470px;
+	font-family: 'bentonsanslight', Helvetica, Arial, sans-serif;  
+	height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	h2{
+		color:@whiteColor;
+		font-size:34px;
+		text-decoration: none;
+		border:none;
+		text-align: left;
+		font-family: @betonLight;
+		margin-bottom: 0px;
+	}
+	p{
+		font-size: @font-medium;
+		text-align: left;
+		color:@whiteColor;
+		font-family: @betonMedium;
+		margin-top:0px;
+		padding-top:0px;
+		}
+	form{
+		width:415px;
+		float:right;
+		margin-right:0px;
+
+
+
+		@media (min-width: 480px) and (max-width: 960px)  {
+					margin-right:0px;
+		}
+		.form-group{
+			text-align: left;
+			input[type="text"]{
+				color:@grayColor;
+				border-color:@whiteColor;
+				vertical-align: middle;
+				width: 100%;
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+
+.counter{
+	width: 100%;
+	height:110px;
+	background: #EEE;
+	position: relative;
+
+	@media (max-width: 767px) {
+		height:220px;
+	}	
+	.container{
+		position: relative;
+		.gifcard{
+			height:409px;
+			position: absolute;
+			bottom:0px;
+			z-index: 200;
+			@media (max-width: 767px) {
+					display: none;
+				}
+		}
+		section{
+			position: absolute;
+			left:200px;
+
+			@media (max-width: 767px) {
+				width: 100%;
+				left:0px;
+			}	
+
+			
+			h2{
+				color:@graydarkColor;
+				font-size:@font-greetings-small;
+				text-decoration: none;
+				border:none;
+				text-align: left;
+				font-family: @betonBold;
+				margin: 0px;
+				margin-top:10px;
+				@media (max-width: 767px) {
+					text-align: center;
+				}		
+			}
+			h3{
+				color:@graydarkColor;
+				font-size:34px;
+				text-decoration: none;
+				border:none;
+				text-align: left;
+				font-family: @betonLight;
+				margin: 0px;
+				@media (max-width: 767px) {
+					text-align: center;
+				}	
+			}
+		}
+		#counter-wrapper{
+			background: url("../img/bg-counter.png") top left repeat-x;
+			position: absolute;
+			height:110px;
+			width: 420px;
+			right:0px;
+			color:#000;
+
+			@media (max-width: 767px) {
+					width: 100%;
+					right:0px;
+					z-index: 300;
+					top:110px;
+				}
+
+			@media (min-width: 480px) and (max-width: 920px)  {
+				right:0px;
+			}
+
+		}
+	}
+}
+
+
+article#pros-badge{
+	padding-top:100px;
+	padding-bottom:40px;
+	h1{
+		font-size:42px;
+		color:@graydarkColor;
+		font-family: @betonLight;
+		width: 100%;
+		text-align: center;
+	}
+	.container{
+		div:first-of-type{
+			margin-top:50px;
+		}
+	}
+	section{
+		.full-circle{
+			text-align: center;
+			margin:0 auto;
+			span{
+				color:@whiteColor;
+				font-size:80px;
+				margin-top:20px;
+				display: block;
+				padding-top:15px;
+				font-family: @betonLight;
+			}
+		}
+		h3{
+			text-align: center;
+			font-size: 23px;
+			font-family: @betonBold;
+			background: @databoxColor;
+			color:@whiteColor;
+			padding:5px 0px;
+			text-transform: uppercase;
+			margin-top:-20px;
+			margin-bottom:30px;
+			&.full-circle-blue{
+				background: @primaryColor;
+			}
+			&.full-circle-purple{
+				background: @terciaryColor; 
+			}
+		}
+		p{
+			text-align: center;
+		}
+	}
+	section:nth-child(2n+1){
+		margin-top:50px;
+	}
+}
+
+
+.full-circle { 
+	width: 150px; 
+	height: 150px; 
+	background: @databoxColor; 
+	-moz-border-radius: 75px; 
+	-webkit-border-radius: 75px; 
+	border-radius: 100px; 
+	&.full-circle-blue{
+		background: @primaryColor;
+	}
+	&.full-circle-purple{
+		background: @terciaryColor; 
+	}
+}
+

@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PursePerks.com</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="user-scalable=0, initial-scale=0.5, width=device-width">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/web.css">
+        <link rel="stylesheet" href="css/customSelect.css">
+
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container container-fluid">
+            <div id="welcome-back" class="pull-left">
+                Welcome! <a href="#">Sign Up</a> <span>/</span> <a href="#">Sign In</a>
+            </div>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" class="icon star hidden-xs"></a><a href="#" class="secondary hidden-sm hidden-md hidden-lg">Daily Deals</a></li>
+                <li><a href="#" class="icon dollar hidden-xs"></a><a href="#" class="secondary hidden-sm hidden-md hidden-lg">Stores</a></li>
+                <li><a href="#" class="icon coupons hidden-xs"></a><a href="#" class="secondary hidden-sm hidden-md hidden-lg">Coupons</a></li>
+                <li><a href="#" class="icon download hidden-xs"></a><a href="#" class="secondary hidden-sm hidden-md hidden-lg">Favorites</a></li>
+                <li><a href="#" class="icon account hidden-xs"></a><a href="#" class="secondary hidden-sm hidden-md hidden-lg">Lists</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+    <header>
+        <div class="container">
+            <div id="logo">
+                <a href="#"></a>
+            </div>
+            <form method="POST" action="?" class="pull-left col-xs-8 col-sm-5 col-md-6 col-lg-7" role="form"> 
+                <input type="text" name="search" placeholder="Search 100's of Stores & Deals..." class="pull-left col-xs-5 col-sm-4 col-md-6 col-lg-7"/>
+                <div id="search-icon" class="pull-left"></div>
+                <select id="search-options" class="pull-left">
+                    <option>All Categories</option>
+                </select>
+                <div class="clearfix"></div>
+                <ul class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                    <li><a href="#">Daily Deals</a></li>
+                    <li><a href="#">Stores</a></li>
+                    <li><a href="#">Coupons</a></li>
+                    <li><a href="#">Why Join</a></li>
+                </ul>
+            </form>
+            <div id="join" class="pull-left col-xs-3 col-sm-2 col-md-2 col-lg-2">
+                <button class="button blue col-xs-12 col-sm-12 col-md-12 col-lg-12" type="button">JOIN NOW</button>
+                <p class="hidden-xs hidden-sm">Earn up to 8% cash back!</p>
+            </div>
+        </div>
+    </header>
+    <div id="inner">
+        <div class="container">
+            <h3>Bed Bath &amp; Beyond Offers &amp; Coupon Codes</h3>
+            <div class="row store-header">
+                <div class="col col-lg-3 col-md-3 col-sm-12">
+                    <img class="logo" src="img/logo-bed-bath-landing.png" alt="Bed Bath &amp; Beyond Offers &amp; Coupon Codes" />
+                </div>
+                <div class="col col-lg-7 col-md-7 col-sm-9 col-xs-12">
+                    <ul class="menu">
+                        <li><a href="" class="btn btn-primary btn-default"><span class="glyphicon glyphicon-star"></span> Add to Favorites</a></li>
+                        <li><a href="" class="btn btn-primary btn-default"><span class="glyphicon icon money-certificate"></span> Coupons and Offers</a></li>
+                        <li><a href="" class="btn btn-primary btn-default"><span class="glyphicon icon list"></span> Add to List</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                    <p class="details"><strong>Buy office products online today!</strong> More copy could go here if needed. Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
+                </div>
+                <div class="col col-lg-2 col-md-2 col-sm-3 col-xs-12">
+                    <div class="deal">
+                        <p class="offer">5.0%<br><span>Cash Back</span></p>
+                        <a class="btn" href="">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div id="cat-drop" class="hidden-md hidden-lg">
+                <select>
+                    <option value="">Popular Categories</option>
+                    <option value="URL HERE">Baby & Kids</option>
+                    <option value="URL HERE">Books & Magazines</option>
+                    <option value="URL HERE">Cameras</option>
+                    <option value="URL HERE">Cell Phones</option>
+                    <option value="URL HERE">Clothing</option>
+                    <option value="URL HERE">Computers</option>
+                    <option value="URL HERE">Electronics</option>
+                    <option value="URL HERE">Flowers & Gifts</option>
+                    <option value="URL HERE">Grocery</option>
+                    <option value="URL HERE">Health & Beauty</option>
+                    <option value="URL HERE">Home & Garden</option>
+                    <option value="URL HERE">Jewelry</option>
+                    <option value="URL HERE">Laptops</option>
+                    <option value="URL HERE">Music & Movies</option>
+                    <option value="URL HERE">Office & School Supplies</option>
+                </select>
+            </div>
+            <div id="categories" class="pull-left hidden-xs hidden-sm" >
+                <div class="heading">Popular Categories</div>
+                <ul>
+                    <li><a href="#" title="">Baby & Kids</a></li>
+                    <li><a href="#" title="">Books & Magazines</a></li>
+                    <li><a href="#" title="">Cameras</a></li>
+                    <li><a href="#" title="">Cell Phones</a></li>
+                    <li><a href="#" title="">Clothing</a></li>
+                    <li><a href="#" title="">Computers</a></li>
+                    <li><a href="#" title="">Electronics</a></li>
+                    <li><a href="#" title="">Flowers & Gifts</a></li>
+                    <li><a href="#" title="">Grocery</a></li>
+                    <li><a href="#" title="">Health & Beauty</a></li>
+                    <li><a href="#" title="">Home & Garden</a></li>
+                    <li><a href="#" title="">Jewelry</a></li>
+                    <li><a href="#" title="">Laptops</a></li>
+                    <li><a href="#" title="">Music & Movies</a></li>
+                    <li><a href="#" title="">Office & School Supplies</a></li>
+                    <li class="see-more"><a href="#" title="See More">See more <img src="img/icon-plus.png" alt="" /></a></li>
+                </ul>
+                <div id="testimonials">
+                    <h3>Testimonials</h3>
+                    <div id="slides">
+                        <div class="slides">
+                            <p>I love this site, it’s so fun and my husband finally doesn’t complain about my shopping. I give my savings to buy his toys!</p>
+                            <span>– Kaneesha W.</span>
+                        </div>
+                        <div class="slides">
+                            <p>Filet mignon meatball ribeye, bresaola cow porchetta landjaeger strip steak ground round tri-tip pork chop capicola.</p>
+                            <span>– Kaneesha W.</span>
+                        </div>
+                        <div class="slides">
+                            <p>Short loin pork swine turducken beef ribs shankle pig, meatball ball tip porchetta</p>
+                            <span>– Kaneesha W.</span>
+                        </div>
+                        <div class="slides">
+                            <p>Meatloaf short loin landjaeger, biltong jowl salami tail prosciutto pastrami</p>
+                            <span>– Kaneesha W.</span>
+                        </div>
+                        <div class="slides">
+                            <p>Landjaeger swine corned beef ground round, strip steak jerky shoulder cow meatloaf boudin.</p>
+                            <span>– Kaneesha W.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="shop" class="pull-left">
+                <div class="stores">
+                    <section>
+                        <h3>Offers &amp; Coupons</h3>
+                        
+                        <div class="deal col-xs-11 col-sm-5 col-md-5 col-lg-5">
+                            <div class="logo pull-left col-xs-3 col-sm-3 col-md-2 col-lg-3">
+                                <img src="img/badge-20-percent-savings.png" class="img-responsive" />
+                                <p class="expiration">Exp. 7/14/14</p>
+                            </div>
+                            <div class="info pull-left col-xs-8 col-sm-8 col-md-9 col-lg-8">
+                                <p class="name">20 % off Medical Scrubs!</p>
+                                <p class="detail">Receive 20% off of Medical Dickie's Brand scrubs while supplies last!...</p>
+                                <a href="#" class="button col-xs-8 col-sm-8 col-md-8 col-lg-12">REVEAL CODE</a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="deal col-xs-11 col-sm-5 col-md-5 col-lg-5">
+                            <div class="logo pull-left col-xs-3 col-sm-3 col-md-2 col-lg-3">
+                                <img src="img/badge-staples-lowprices.png" class="img-responsive" />
+                            </div>
+                            <div class="info pull-left col-xs-8 col-sm-8 col-md-9 col-lg-8">
+                                <p class="name">Cleaning and Breakroom Deals!</p>
+                                <p class="detail">New Low Prices on Select Cleaning and Breakroom Necessities!...</p>
+                                <a href="#" class="button col-xs-8 col-sm-8 col-md-8 col-lg-12">ACTIVATE</a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="deal col-xs-11 col-sm-5 col-md-5 col-lg-5">
+                            <div class="logo pull-left col-xs-3 col-sm-3 col-md-2 col-lg-3">
+                                <img src="img/badge-staples.png" class="img-responsive" />
+                            </div>
+                            <div class="info col-xs-8 col-sm-8 col-md-9 col-lg-8">
+                                <p class="name">Best Deals on Technology</p>
+                                <p class="detail">Best Deals on Technology and Electronics at Staples!...</p>
+                                <a href="#" class="button pull-left col-xs-8 col-sm-8 col-md-8 col-lg-12">VIEW COUPON</a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="conditions">
+                            <h3>Special Conditions for Staples:</h3>
+                            <p>No special conditions for this store.</p>
+                        </div>
+                    </section>
+                    
+                    <section class="trending">
+                        <h3>Trending Cashback Stores</h3>
+                        <div class="trending-store col-lg-2 col-md-3 col-sm-5">
+                            <a href="">
+                                <img class="logo img-responsive" src="img/logo-disney.png" alt="" />
+                                <p class="offer">Up to 8.0%</p>
+                            </a>
+                        </div>
+                        <div class="trending-store col-lg-2 col-md-3 col-sm-5">
+                            <a href="">
+                                <img class="logo img-responsive" src="img/the-vault.jpg" alt="" />
+                                <p class="offer"><a href="">Up to 6.0%</p></a>
+                            </a>
+                        </div>
+                        <div class="trending-store col-lg-2 col-md-3 col-sm-5">
+                            <a href="">
+                                <img class="logo img-responsive" src="img/lane-bryant.jpg" alt="" />
+                                <p class="offer"><a href="">Up to 3.0%</p></a>
+                            </a>
+                        </div>
+                        <div class="trending-store col-lg-2 col-md-3 col-sm-5">
+                            <a href="">
+                                <img class="logo img-responsive" src="img/logo-disney.png" alt="" />
+                                <p class="offer"><a href="">Up to 1.0%</p></a>
+                            </a>
+                        </div>
+                        <div class="trending-store col-lg-2 col-md-3 col-sm-5">
+                            <a href="">
+                                <img class="logo img-responsive" src="img/logo-disney.png" alt="" />
+                                <p class="offer"><a href="">Up to 4.0%</p></a>
+                            </a>
+                        </div>
+                        <div class="clearfix"></div>
+                    <section>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div id="subscribe">
+        <div class="container">
+            <div class="col-md-1 col-lg-1"></div>
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6">
+                    <p><em>Subscribe</em> <br/> to get offers right to your inbox!</p>
+                </div>
+                <div id="email" class="col-xs-12 col-sm-12 col-md-4 col-lg-6">
+                    <form>
+                        <input type="email" placeholder="Enter Your Email" />
+                    </form>
+                </div>
+            </div>
+            <div id="social" class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <img src="img/temp-facebooktwitter.png" />
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <ul class="col-xs-12 col-sm-12 col-lg-9">
+                <li><a href="#">FAQ's</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Advertising Partnerships</a></li>
+                <li><a href="#">Customer Care</a></li> 
+                <li><a href="#">Terms of Use</a></li>   
+                <li><a href="#">Privacy Policy</a></li>  
+                <li><a href="#">Unsubsribe</a></li>
+            </ul>
+            <p class="col-xs-12 col-sm-12 col-lg-3">Copyright © 2014 All Rights Reserved.</p>
+        </div>
+    </footer>
+<? // include in all_signupModal_stores ?>
+    <div id="inter-signup-modal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="glyphicon glyphicon-remove"></i></button>
+            <h4 class="modal-title">One Moment Please.</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="store-logo col-xs-12 col-sm-5 col-md-4 col-lg-4">
+                        <img src="img/logo-modal-target.png" />
+                    </div>
+                    <div class="almost col-xs-12 col-sm-6 col-sm-offset-1 col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-2">
+                        <p>You're ALMOST on your<br> way to cash back…</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="modal-body dark">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="facebook-signup-btn col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                        <button>SIGN UP WITH <span>FACEBOOK</span></button>
+                    </div>
+                    <div class="or col-xs-12 col-sm-12 col-md-12 col-lg-2">
+                        <span>OR</span>
+                    </div>
+                    <div class="signup col-xs-12 col-sm-6 col-md-5 col-lg-5">
+                        <form class="signup-form">
+                            <input name="email" type="text" placeholder="Sign up with Email" />
+                            <button type="submit">NEXT</button>
+                        </form>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="member">Already a Member? <a href="">Sign In</a></p>
+                        <p class="terms">Membership is Free. You will receive Email updates from PursePerks about your Cash Back earned, Promotions, and Sales. By becoming a member, you agree to our <a href="">Terms &amp; Conditions</a>.</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="" class="btn btn-skip">CLICK TO SKIP</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+<? // end include in all_signupModal_stores ?>
+
+    <div id="signup-modal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="glyphicon glyphicon-remove"></i></button>
+            <h4 class="modal-title">Sign Up Today!</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="header col-xs-12 col-sm-5 col-md-4 col-lg-4">
+                        <h3>Shop, Save and Earn</h3>
+                        <p>Its that easy!</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="modal-body dark">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="facebook-signup-btn col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                        <button>SIGN UP WITH <span>FACEBOOK</span></button>
+                    </div>
+                    <div class="or col-xs-12 col-sm-12 col-md-12 col-lg-2">
+                        <span>OR</span>
+                    </div>
+                    <div class="signup col-xs-12 col-sm-6 col-md-5 col-lg-5">
+                        <form class="signup-form">
+                            <input name="email" type="text" placeholder="Sign up with Email" />
+                            <button type="submit">NEXT</button>
+                        </form>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="member">Already a Member? <a href="">Sign In</a></p>
+                    </div>
+                    <div class="purple-divider"></div>
+                    <div class="cards">
+                        <h3>Plus get a restaurant card</h3>
+                        <div class="card">
+                            <div class="checkbox pull-left">
+                                <input type="radio" id="replaceme" name="replaceme" checked="check" />
+                                <label for="replaceme"><span></span></label>
+                            </div>
+                            <div class="pull-left">
+                                <img src="/img/twentyfive.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="checkbox pull-left">
+                                <input type="radio" id="metoo" name="replaceme" />
+                                <label for="metoo"><span></span></label>
+                            </div>
+                            <div class="pull-left">
+                                <img src="/img/ten.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="why-join">
+                <h4>Why You Should Join</h4>
+                <p>You'll begin earning cash back as soon as you start shopping with PursePerks.com. There's nothing more for you to do, just point, click, shop, save and earn, it really is that easy! When you shop online through PursePerks.com you'll earn a commission on all of your purchases. All you need to do is register through your facebook account or give us an active email address, and you're ready to begin earning while you shop… and, membership is FREE!</p>
+                <span>* Gift Card earned after first $10 or $25 purchase. By becoming a member, you agree to our Terms & Conditions.</span>
+            </div>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/plugins/jquery.customSelect.min.js"></script>
+    <script src="js/plugins/jquery.cycle.all.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/purseperks/global.js"></script>
+    <script src="js/purseperks/inner.js"></script>
+<? // included in all_signupModalStores.php ?>
+    <script>
+    $(function(){
+        $('#inter-signup-modal').modal({
+            backdrop: 'static'
+        }).modal('show');
+    });
+    </script>
+<? // end include in all_signupModalStores.php    ?>
+</body>
+</html>

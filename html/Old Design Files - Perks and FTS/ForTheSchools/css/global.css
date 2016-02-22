@@ -1,0 +1,329 @@
+html,
+body {
+  width: 100%;
+  margin: 0px;
+}
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  background: #fcf7f0;
+}
+@font-face {
+  font-family: 'bentonsansextralight';
+  src: url('../fonts/bentonsans-extralight-webfont.eot');
+  src: url('../fonts/bentonsans-extralight-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/bentonsans-extralight-webfont.woff') format('woff'), url('../fonts/bentonsans-extralight-webfont.ttf') format('truetype'), url('../fonts/bentonsans-extralight-webfont.svg#bentonsansextralight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bentonsansthin';
+  src: url('../fonts/bentonsans-thin-webfont.eot');
+  src: url('../fonts/bentonsans-thin-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/bentonsans-thin-webfont.woff') format('woff'), url('../fonts/bentonsans-thin-webfont.ttf') format('truetype'), url('../fonts/bentonsans-thin-webfont.svg#bentonsansthin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bentonsanslight';
+  src: url('../fonts/bentonsans-light-webfont.eot');
+  src: url('../fonts/bentonsans-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/bentonsans-light-webfont.woff') format('woff'), url('../fonts/bentonsans-light-webfont.ttf') format('truetype'), url('../fonts/bentonsans-light-webfont.svg#bentonsanslight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bentonsans';
+  src: url('../fonts/bentonsans-regular-webfont.eot');
+  src: url('../fonts/bentonsans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/bentonsans-regular-webfont.woff') format('woff'), url('../fonts/bentonsans-regular-webfont.ttf') format('truetype'), url('../fonts/bentonsans-regular-webfont.svg#bentonsans_regularregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bentonsansmedium';
+  src: url('../fonts/bentonsans-medium-webfont.eot');
+  src: url('../fonts/bentonsans-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/bentonsans-medium-webfont.woff') format('woff'), url('../fonts/bentonsans-medium-webfont.ttf') format('truetype'), url('../fonts/bentonsans-medium-webfont.svg#bentonsansmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bentonsansbold';
+  src: url('../fonts/bentonsans-bold-webfont.eot');
+  src: url('../fonts/bentonsans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/bentonsans-bold-webfont.woff') format('woff'), url('../fonts/bentonsans-bold-webfont.ttf') format('truetype'), url('../fonts/bentonsans-bold-webfont.svg#bentonsansbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bentonsansbook';
+  src: url('../fonts/bentonsans-book-webfont.eot');
+  src: url('../fonts/bentonsans-book-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/bentonsans-book-webfont.woff') format('woff'), url('../fonts/bentonsans-book-webfont.ttf') format('truetype'), url('../fonts/bentonsans-book-webfont.svg#bentonsansbook') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-family: 'bentonsansmedium', Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 160px;
+}
+h2 {
+  font-family: 'bentonsans', Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 62px;
+}
+.container {
+  max-width: 1170px;
+  padding: 0px;
+}
+.navbar-header {
+  margin: 0!important;
+}
+.navbar {
+  min-height: 53px;
+  border-radius: 0px;
+  background-color: #0f3655;
+}
+.navbar.navbar-default {
+  background-color: #66c3d4;
+  border: none;
+  margin: 0;
+}
+.navbar.navbar-default li {
+  margin-top: 10px;
+  height: 32px;
+  border-right: 1px solid #11929c;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.navbar.navbar-default li .secondary {
+  display: none;
+}
+.navbar.navbar-default li .icon {
+  display: block;
+}
+.navbar .in {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.navbar .in ul {
+  margin: 0;
+}
+.navbar .in ul li {
+  margin: 0;
+  background-color: #533445;
+  height: 49px;
+  border-bottom: 1px solid #643f53;
+}
+.navbar .in ul li .secondary {
+  display: block;
+}
+.navbar .in ul li .icon {
+  display: none;
+}
+.navbar .in ul li:hover {
+  background-color: #e24e4e;
+}
+.navbar .in ul li a {
+  line-height: 25px;
+  color: #ffffff;
+  font-family: 'bentonsansbold', Helvetica, Arial, sans-serif;
+}
+.navbar .navbar-toggle {
+  border: none;
+}
+.navbar .navbar-toggle:hover {
+  background-color: #16bfc6;
+}
+.navbar .navbar-toggle .icon-bar {
+  height: 7px;
+  width: 30px;
+  background-color: #ffffff;
+}
+.navbar #welcome-back {
+  color: #ffffff;
+  font-size: 13px;
+  font-family: 'bentonsansbold', Helvetica, Arial, sans-serif;
+  line-height: 53px;
+  z-index: 10;
+  position: relative;
+}
+.navbar #welcome-back img {
+  display: inline-block;
+  margin-right: 55px;
+}
+.navbar #welcome-back a {
+  margin-top: 4px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+.navbar #welcome-back span {
+  display: inline-block;
+  margin-left: 10px;
+}
+@media (max-width: 767px) {
+  .navbar #welcome-back {
+    padding-left: 20px;
+  }
+}
+/* Mega Menu Styles */
+.mega-menu ul,
+.mega-menu ul li {
+  list-style: none;
+}
+.mega-menu ul {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.mega-menu ul li ul {
+  display: none;
+}
+.mega-menu .sub {
+  display: none;
+}
+.mega-menu .sub ul {
+  display: block;
+}
+#navigation {
+  position: relative;
+}
+#navigation .sub ul {
+  display: block;
+}
+#navigation li .sub-container {
+  width: 190px;
+  position: absolute;
+  top: 37px!important;
+  left: -78px !important;
+}
+#navigation li .sub {
+  margin-top: 5px;
+  background: #533445;
+}
+#navigation li .sub li {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  width: auto;
+  border: none;
+  padding: 0px 10px 0px 10px;
+}
+#navigation li .sub li:hover {
+  background-color: #e85158;
+}
+#navigation li .sub li a {
+  height: 25px;
+  display: inline-block;
+  line-height: 1;
+  width: 190px;
+  color: #ffffff;
+  font-family: 'bentonsansbold', Helvetica, sans-serif;
+  text-decoration: none;
+}
+.icon.star {
+  width: 30px;
+  height: 30px;
+  background: url(../img/sprite-star.png) no-repeat;
+}
+.icon.star:hover {
+  background-position: 0 -30px;
+}
+.icon.dollar {
+  width: 30px;
+  height: 30px;
+  background: url(../img/sprite-dollar.png) no-repeat;
+}
+.icon.dollar:hover {
+  background-position: 0 -30px;
+}
+.icon.coupons {
+  width: 30px;
+  height: 30px;
+  background: url(../img/sprite-coupons.png) no-repeat;
+}
+.icon.coupons:hover {
+  background-position: 0 -30px;
+}
+.icon.download {
+  width: 30px;
+  height: 30px;
+  background: url(../img/sprite-download.png) no-repeat;
+}
+.icon.download:hover {
+  background-position: 0 -30px;
+}
+.icon.account {
+  width: 60px;
+  height: 30px;
+  background: url(../img/sprite-account.png) no-repeat;
+}
+.icon.account:hover {
+  background-position: 0 -30px;
+}
+.icon.money-certificate {
+  width: 14px;
+  height: 14px;
+  background: url(../img/icon-money-certificate.png) no-repeat;
+}
+.icon.list {
+  width: 14px;
+  height: 14px;
+  background: url(../img/icon-list.png) no-repeat;
+}
+footer {
+  background-color: #533445;
+  min-height: 75px;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: 'bentonsansbold', Helvetica, Arial, sans-serif;
+  padding-top: 33px;
+  text-align: center;
+}
+footer ul li {
+  display: inline-block;
+}
+footer ul li a {
+  font-family: 'bentonsansbold', Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  text-decoration: none;
+}
+footer ul li:after {
+  font-family: 'bentonsanslight', Helvetica, Arial, sans-serif;
+  content: '/';
+  padding-left: 3px;
+  padding-right: 3px;
+}
+footer ul li:last-child:after {
+  content: '';
+}
+footer p {
+  color: #ffffff;
+}
+.checkbox label {
+  color: #524359;
+  font-family: 'dosisregular';
+  font-size: 1.429em;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto!important;
+  opacity: 0;
+  position: absolute;
+}
+input[type="checkbox"] + label span,
+input[type="radio"] + label span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  vertical-align: middle;
+  cursor: pointer;
+  background: url(../img/sprite-checkbox.png) left top no-repeat;
+  margin-right: 12px;
+}
+input[type="checkbox"]:checked + label span,
+input[type="radio"]:checked + label span {
+  background-position: 0 -25px;
+}

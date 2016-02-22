@@ -1,0 +1,598 @@
+//------------------------------------------------------------------------
+// Global Vars
+//------------------------------------------------------------------------
+
+@primaryColor: #149faa;
+@primaryLightColor:#16B1BE;
+@primaryDarkColor:#107881;
+@primaryDarkerColor:#0D636A;
+@secondaryColor: #16bfc6;
+@terciaryColor: #0e3655;
+@terciaryLightColor:#F1E9E6;
+@bodyBackground: #fcf7f0;
+@primaryFontColor: #553445;
+@accentColor: #533445;
+@categoryColor:#F3E8E5;
+@categoryIconColor:#DAB9AF;
+@whiteColor: #FFF;
+@blackColor: #000;
+@lightColor: #F7F7F7;
+@buttonColor: #E24E4E;
+@buttonGrayLightColor:#F0F0E1;
+@buttonHoverColor: #CA3434;
+@buttonSecColor: #555;
+@buttonSecHoverColor: #333;
+@buttonTercHoverColor: #0B2C44;
+@graylightColor:#CCC;
+@graylightMColor:#AAA;
+@grayColor:#666;
+@grayMediumColor:#999;
+@graydarkColor:#333;
+@installationColor:#FFC926;
+@greetingsBgColor:#EEE;
+@databoxColor:#E04C4C;
+@yellow:#FFC20D;
+@yellowMedColor:#EAAF00;
+@yellowDarkColor:#5B4500;
+
+@facebookColor:#0E3655;
+@facebooklightColor:#1C6DAA;
+@twitterColor:#4099FF;
+@twitterlightColor:#97C9FF;
+@pinterestColor:#CB2027;
+@pinterestlightColor:#E8666C;
+@emailColor:#008C8C;
+@emaillightColor:#00E1E1;
+@linkColor:#00B200;
+@linklightColor:#09FF09;
+@fancy-button:#FFD24D;
+
+@coupon-green:#0CB85E;
+@coupon-bg:#F9F9F9;
+@coupon-border:#DDD;
+@404-border:#FFC926;
+@404-bg:#FFF8C4;
+@404-bg-action:#FFF39F;
+@unsubscribe-option:#DFDFDF;
+
+//------------------------------------------------------------------------
+// Fonts
+//------------------------------------------------------------------------
+@betonLight: 'bentonsanslight', Helvetica, Arial, sans-serif;
+@betonThin: 'bentonsansthin', Helvetica, Arial, sans-serif;
+@betonMedium: 'bentonsansmedium', Helvetica, Arial, sans-serif;
+@betonBold: 'bentonsansbold', Helvetica, Arial, sans-serif;
+@betonBook: 'bentonsansbook', Helvetica, Arial, sans-serif;
+@beton: 'bentonsans', Helvetica, Arial, sans-serif;
+
+@font-medium:20px;
+@font-large:30px;
+@font-larger:40px;
+@font-big:50px;
+@font-greetings:58px;
+@font-greetings-small:40px;
+@font-heading:66px;
+
+
+
+//------------------------------------------------------------------------
+// GLOBAL CSS
+//------------------------------------------------------------------------
+
+body{
+	-webkit-text-size-adjust: none; 
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
+}
+//------------------------------------------------------------------------
+// Fonts
+//------------------------------------------------------------------------
+@font-face {
+    font-family: 'bentonsansextralight';
+    src: url('../fonts/bentonsans-extralight-webfont.eot');
+    src: url('../fonts/bentonsans-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bentonsans-extralight-webfont.woff') format('woff'),
+         url('../fonts/bentonsans-extralight-webfont.ttf') format('truetype'),
+         url('../fonts/bentonsans-extralight-webfont.svg#bentonsansextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bentonsansthin';
+    src: url('../fonts/bentonsans-thin-webfont.eot');
+    src: url('../fonts/bentonsans-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bentonsans-thin-webfont.woff') format('woff'),
+         url('../fonts/bentonsans-thin-webfont.ttf') format('truetype'),
+         url('../fonts/bentonsans-thin-webfont.svg#bentonsansthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bentonsanslight';
+    src: url('../fonts/bentonsans-light-webfont.eot');
+    src: url('../fonts/bentonsans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bentonsans-light-webfont.woff') format('woff'),
+         url('../fonts/bentonsans-light-webfont.ttf') format('truetype'),
+         url('../fonts/bentonsans-light-webfont.svg#bentonsanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bentonsans';
+    src: url('../fonts/bentonsans-regular-webfont.eot');
+    src: url('../fonts/bentonsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bentonsans-regular-webfont.woff') format('woff'),
+         url('../fonts/bentonsans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/bentonsans-regular-webfont.svg#bentonsans_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bentonsansmedium';
+    src: url('../fonts/bentonsans-medium-webfont.eot');
+    src: url('../fonts/bentonsans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bentonsans-medium-webfont.woff') format('woff'),
+         url('../fonts/bentonsans-medium-webfont.ttf') format('truetype'),
+         url('../fonts/bentonsans-medium-webfont.svg#bentonsansmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bentonsansbold';
+    src: url('../fonts/bentonsans-bold-webfont.eot');
+    src: url('../fonts/bentonsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bentonsans-bold-webfont.woff') format('woff'),
+         url('../fonts/bentonsans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/bentonsans-bold-webfont.svg#bentonsansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'ElegantIcons';
+	src:url('../fonts/ElegantIcons.eot');
+	src:url('../fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ElegantIcons.woff') format('woff'),
+		url('../fonts/ElegantIcons.ttf') format('truetype'),
+		url('../fonts/ElegantIcons.svg#ElegantIcons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'ElegantIcons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon_profile,.icon_grid-3x3,.icon_cog,.icon_star,.icon_bag,.icon_chat,.icon_tags,.social_facebook_circle,.social_twitter_circle,.social_pinterest_circle,.social_googleplus_circle{
+    font-family: 'ElegantIcons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.icon_profile:before {
+    content: "\e08a";
+}
+
+.icon_grid-3x3:before {
+	content: "\e08d";
+}
+
+.icon_cog:before {
+	content: "\e037";
+}
+
+.icon_star:before {
+	content: "\e033";
+}
+
+.icon_bag:before {
+	content: "\e079";
+}
+
+.icon_chat:before {
+	content: "\e066";
+}
+
+.icon_tags:before {
+	content: "\e07c";
+}
+
+.social_facebook_circle:before {
+	content: "\e0aa";
+}
+.social_facebook_circle:hover{color:#0E3655;}
+
+.social_twitter_circle:before {
+	content: "\e0ab";
+}
+.social_twitter_circle:hover{color:#4099FF;}
+
+.social_pinterest_circle:before {
+	content: "\e0ac";
+}
+.social_pinterest_circle:hover{color:#CB2027;}
+
+.social_googleplus_circle:before {
+	content: "\e0ad";
+}
+.social_googleplus_circle:hover{color:#D64135;}
+
+//------------------------------------------------------------------------
+// Headings
+//------------------------------------------------------------------------
+h1{
+	font-family: 'bentonsansmedium', Helvetica, Arial, sans-serif;
+	color:#ffffff;
+	font-size: 160px;
+}
+h2{
+	font-family: 'bentonsans', Helvetica, Arial, sans-serif;
+	color:#ffffff;
+	font-size: 62px;
+}
+
+//------------------------------------------------------------------------
+// Navigation
+//------------------------------------------------------------------------
+.container{
+	max-width:1170px;
+	padding:0px;
+	position: relative; 
+}
+.navbar-header{
+	margin:0!important;
+	
+}
+.navbar-collapse{
+	position: relative; 
+}
+.navbar{
+	min-height: 53px;
+	border-radius: 0px;
+	background-color:#0f3655;
+	position: relative;
+	&.navbar-default{
+		background-color:#149faa;
+		border:none;
+		margin:0;
+		li{
+			margin-top:10px;
+			height: 32px;
+			border-right: 1px solid #11929c;
+			padding-right:20px;
+			padding-left:20px;
+			.secondary{
+				display: none;
+			}
+			.icon{
+				display: block;
+			}
+		}
+	}
+	.in{
+		padding:0;
+		margin:0;
+		width:100%;
+		ul{
+			margin:0;
+			li{
+				margin:0;
+				background-color:#0f3655;
+				height: 49px;
+				border-bottom:1px solid #104b66;
+
+				.secondary{
+					display: block;
+				}
+				.icon{
+					display: none;
+				}
+				&:hover{
+					background-color:#e85158;
+				}
+				a{
+					line-height: 25px;
+					color:#ffffff;
+					font-family: 'bentonsansbold', Helvetica, Arial, sans-serif;
+				}
+			}
+		}
+	}
+	.navbar-toggle{
+		border:none;
+		&:hover{
+			background-color:#0e3655;
+		}
+		.icon-bar{
+			height: 7px;
+			width:30px;
+			background-color:#ffffff;
+		}	
+	}
+	#welcome-back{
+		width:266px;
+		color:#ffffff;
+		font-size: 13px;
+		font-family: 'bentonsansbold', Helvetica, Arial, sans-serif;
+		line-height: 53px;
+		z-index: 10;
+		position: relative;
+		a{
+			margin-left: 10px;
+			color:#ffffff;
+		}
+		span{
+			display: inline-block;
+			margin-left:10px;
+			
+		}
+		@media (max-width: 767px) {
+			padding-left:20px
+		}
+	}
+}
+
+
+
+/* Mega Menu Styles */
+.mega-menu ul, .mega-menu ul li {list-style: none;}
+.mega-menu ul {position: relative; padding: 0; margin: 0;}
+.mega-menu ul li ul {display: none;}
+.mega-menu .sub {display: none;}
+.mega-menu .sub ul {display: block;}
+
+#navigation {
+    position: relative; 
+    .sub{
+        ul{
+            display: block;
+        }
+    }
+    li {
+        .sub-container {
+        	width:190px;
+        	position: absolute;
+        	top:30px!important;
+        	left:-78px!important;
+        }
+        .sub {
+            margin-top: 5px;
+            background:#0f3655;
+            li{
+                display: block;
+                height: 40px;
+                line-height: 40px;
+                width:auto;
+                border:none;
+                padding:0px 10px 0px 10px;
+                &:hover{
+                	background-color: #e85158;
+                }
+                a{
+                    height: 25px;
+                    display: inline-block;
+                    line-height: 1;
+                    width:190px;
+                    color:#ffffff; 	
+                    font-family: 'bentonsansbold', Helvetica, sans-serif;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+//------------------------------------------------------------------------
+// Icons
+//------------------------------------------------------------------------
+.icon{
+	&.star{
+		width:30px;
+		height: 30px;
+		background:url(../img/sprite-star.png) no-repeat;
+		&:hover{
+			background-position: 0 -30px;
+		}
+	}
+	&.dollar{
+		width:30px;
+		height: 30px;
+		background:url(../img/sprite-dollar.png) no-repeat;
+		&:hover{
+			background-position: 0 -30px;
+		}
+	}
+	&.coupons{
+		width:30px;
+		height: 30px;
+		background:url(../img/sprite-coupons.png) no-repeat;
+		&:hover{
+			background-position: 0 -30px;
+		}
+	}
+	&.download{
+		width:30px;
+		height: 30px;
+		background:url(../img/sprite-download.png) no-repeat;
+		&:hover{
+			background-position: 0 -30px;
+		}
+	}
+	&.account{
+		width:60px;
+		height: 30px;
+		background:url(../img/sprite-account.png) no-repeat;
+		&:hover{
+			background-position: 0 -30px;
+		}
+	}
+    &.money-certificate{
+        width: 14px;
+        height: 14px;
+        background: url(../img/icon-money-certificate.png) no-repeat;
+    }
+    &.list{
+        width: 14px;
+        height: 14px;
+        background: url(../img/icon-list.png) no-repeat;
+    }
+}
+//------------------------------------------------------------------------
+// footer
+//------------------------------------------------------------------------
+footer{
+	background-color:#149faa;
+	min-height: 75px;
+	color:#ffffff;
+	font-size: 13px;
+	font-family: 'bentonsansbold', Helvetica, Arial, sans-serif;
+	text-align: center;
+	padding-bottom:10px;
+
+  .footer-social{
+    background-color:#16bfc6;
+    padding:20px 0px;
+    margin-bottom:20px;
+    .footer-brand{
+    	text-align: left;
+    }
+    .footer-icons{
+    	text-align: right;
+    	ul{
+    		margin:0px;
+    		padding:0px;
+    		margin-top:5px;
+    		li{
+    			display: inline;
+    			margin-right:20px;
+    			a{
+    				font-size: 3em;
+    			}
+    		}
+    		li:last-child{
+    			margin-right:0px;
+    		}
+    		li:after {
+  				content: "";
+  			}
+    	}
+    }
+  }
+
+  .footer-col{
+  	text-align: left;
+  	margin-bottom:60px;
+  	h3{
+  		font-size:1.5em;
+  		text-transform: uppercase;
+  		font-family: 'bentonsansbold', Helvetica, Arial, sans-serif;
+  		border-bottom:1px solid rgba(255,255,255,0.3);
+  		padding-bottom:7px;
+  		margin-bottom:25px;
+  	}
+  	ul{
+  		margin:0px;
+  		padding:0px;
+  		margin-left:10px;
+  		li{
+  			display: block;
+  			margin-bottom:10px;
+  			font-family: 'bentonsansthin', Helvetica, Arial, sans-serif;
+  			
+  			a{
+  				font-family: 'bentonsansthin', Helvetica, Arial, sans-serif;
+  				font-size:1.2em;
+  			}
+  			
+  		}
+  		li:after {
+  				content: "";
+  		}
+  		h4{
+					margin-bottom:10px;
+					margin-top:20px;
+					color:#fff;
+					padding-bottom:7px;
+					border-bottom:1px solid rgba(255,255,255,0.3);  		
+  			}
+
+		}
+  }
+
+	ul{
+		li{
+			display: inline-block;
+			a{
+
+				font-family: 'bentonsansbold', Helvetica, Arial, sans-serif;
+				color:#ffffff;
+				text-decoration: none;
+				&:hover{
+					text-decoration: none;
+				}
+			}
+			&:after{
+				font-family: 'bentonsanslight', Helvetica, Arial, sans-serif;
+                content : '/';
+                padding-left: 3px;
+                padding-right: 3px;
+            }
+            &:last-child{
+                &:after{
+                    content: '';
+                }
+            }
+		}
+	}
+	p{
+		font-family: 'bentonsansbold', Helvetica, Arial, sans-serif;
+		color:#fff;
+		font-size:1em;
+	}
+}
+
+.checkbox{
+    //margin-top:30px;
+    label{
+        color:#524359;
+        font-family: 'dosisregular';
+        font-size: 1.429em;
+    }
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width:auto!important;
+    opacity:0;
+    + label span {
+        display:inline-block;
+        width:25px;
+        height:25px;
+        margin:0;
+        vertical-align:middle;
+        cursor:pointer;
+        background:url(../img/sprite-checkbox.png) left top no-repeat;
+        margin-right:12px;
+    }
+    position: absolute;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    &:checked + label span {
+        background-position: 0 -25px;
+    }
+}
+

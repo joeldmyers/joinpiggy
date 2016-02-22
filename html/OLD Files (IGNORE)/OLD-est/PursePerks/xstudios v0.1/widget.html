@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PursePerks.com</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="user-scalable=0, initial-scale=0.5, width=device-width">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/web.css">
+        <style>
+        ul.tabs li {
+        }
+        ul#sub {
+            position:absolute;
+            right:0;
+            width:100px;
+            visibility: hidden;
+            background:#149faa;
+            z-index: 100;
+            list-style: none;
+            text-align:left;
+        }
+        ul.tabs li:hover #sub {
+            visibility:visible;
+        }
+        ul#sub li:hover {
+            background: #0f3655;
+        }
+        #sub li {
+            position:relative;
+            left:-40px;
+            width:100px;
+            padding:0px 10px;
+        }
+        .widget .deals .entries {
+            overflow-y:scroll;
+        }
+        </style>
+    </head>
+    <body>
+    <div class="widget">
+        <div class="header">
+            <p class="deal">Bed Bath and Beyond<br><span class="offer">Click to get up to <span class="percent">4.0%</span> Cash Back!</span></p>
+            <p class="deal activated">Bed Bath and Beyond <span class="activated">activated</span><br><span class="offer">You’re Getting Up to <span class="percent">4.0%</span> Automatic Cash Back!</span></p>
+            <a href="" class="activate-btn">ACTIVATE NOW</a>
+        </div>
+        <div class="tab-bar">
+            <img class="logo" src="img/logo-widget.png" />
+            <ul class="tabs">
+                <li class="tab current"><a href="#" title="Hot Deals">Hot Deals</a></li>
+                <li class="tab"><a href="#" title="Top Stores">Top Stores</a></li>
+                <li class="tab"><a href="#" title="Login">Account</a>
+                    <ul id="sub">
+                        <li>Earnings</li>
+                        <li>Info</li>
+                        <li>Favorites</li>
+                        <li>Settings</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="deals">
+            <ul class="entries">
+                <li class="odd">
+                    <div class="logo"><img src="img/lane-bryant.jpg" /></div>
+                    <div class="info">
+                        <p class="website">LaneBryant.com</p>
+                        <p class="deal">Save 65% off target clearance!!!! No coupons Needed! ... <a href="">more</a></p>
+                    </div>
+                    <p class="percent">Up to 8.0%</p>
+                    <div class="clearfix"></div>
+                </li>
+                <li class="even">
+                    <div class="logo"><img src="img/lane-bryant.jpg" /></div>
+                    <div class="info">
+                        <p class="website">LaneBryant.com</p>
+                        <p class="deal">Save 65% off target clearance!!!! No coupons Needed! ... <a href="">more</a></p>
+                    </div>
+                    <p class="percent">Up to 8.0%</p>
+                    <div class="clearfix"></div>
+                </li>
+                <li class="odd">
+                    <div class="logo"><img src="img/lane-bryant.jpg" /></div>
+                    <div class="info">
+                        <p class="website">LaneBryant.com</p>
+                        <p class="deal">Save 65% off target clearance!!!! No coupons Needed! ... <a href="">more</a></p>
+                    </div>
+                    <p class="percent">Up to 8.0%</p>
+                    <div class="clearfix"></div>
+                </li>
+                <li class="even">
+                    <div class="logo"><img src="img/lane-bryant.jpg" /></div>
+                    <div class="info">
+                        <p class="website">LaneBryant.com</p>
+                        <p class="deal">Save 65% off target clearance!!!! No coupons Needed! ... <a href="">more</a></p>
+                    </div>
+                    <p class="percent">Up to 8.0%</p>
+                    <div class="clearfix"></div>
+                </li>
+            </ul>
+            <div class="empty">
+                <p class="notice">No Current Offers</p>
+                <p class="browse">For more amazing deals browse other stores or visit PursePerks.com!</p>
+                <a href=""><img class="logo" src="img/widget-logo-blue.png" /></a>
+            </div>
+        </div>
+        
+        <div class="search-bar">
+            <input class="input" type="text" placeholder="Search 100's of Stores & Deals..." />
+            <input class="search-btn" type="submit" value="SEARCH" />
+        </div>
+    </div>
+
+    <script src="/js/jquery-2.1.0.min.js"></script>
+    <script src="/js/plugins/jquery.customSelect.min.js"></script>
+    <script src="/js/plugins/jquery.cycle.all.js"></script>
+    <script src="/js/plugins/jquery.mousewheel.min.js"></script>
+    <script src="/js/bootstrap/bootstrap.min.js"></script>
+    <script src="/js/purseperks/global.js"></script>
+    <script src="/js/purseperks/inner.js"></script>
+    <script>
+        
+    </script>
+    </body>
+</html>

@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title></title>
+        
+
+		<meta property="og:site_name" content="" />
+        <meta name="viewport" content="user-scalable=0, initial-scale=0.5, width=device-width, user-scalable=yes">
+        <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="/css/web.css">
+        <link rel="stylesheet" href="/css/customSelect.css">
+        <link rel="stylesheet" htef="/css/modal.css" />
+        <link rel="stylesheet" href="/css/tipsy.css">
+        <link rel="stylesheet" href="/css/lean-slider.css">
+        <link rel="stylesheet" href="/css/magnific-popup.css">
+        <link href="//d195uvwku2xa4f.cloudfront.net/shared-scripts/font-awesome-v4.2.0.min.css?07-26-2015" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="/css/bubblegumPatch.css?07-26-2015" />
+        <link rel="stylesheet" href="/css/simpletextrotator.css" />
+        <link rel="stylesheet" href="//d195uvwku2xa4f.cloudfront.net/shared-scripts/jqueryui/1.10.4/themes/smoothness/jquery-ui.css?07-26-2015" />
+        <!-- Google app link rel -->
+                <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/hfapbcheiepjppjbnkphkmegjlipojba">
+                <!-- put antything after this, watch for conflicts -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) jq1.11.0 explicityl added to fix autocomplete 50114-->
+        <script src="/js/init.js"></script>
+        <script src="//d195uvwku2xa4f.cloudfront.net/shared-scripts/client.js?07-26-2015"></script>
+        <script src="//d195uvwku2xa4f.cloudfront.net/shared-scripts/jquery-1.11.3.min.js?07-26-2015"></script>
+        <script src="//d195uvwku2xa4f.cloudfront.net/shared-scripts/jquery-ui-V1.10.4.min.js?07-26-2015"></script>
+        <script async type="text/javascript" src="//d195uvwku2xa4f.cloudfront.net/shared-scripts/mandrill.js?07-26-2015"></script>
+        <script src="/js/bootstrap/bootstrap.min.js"></script>
+        <script src="/js/typeahead/bloodhound.js"></script>
+        <script src="/js/typeahead/typeahead.jquery.js"></script>
+        <script src="/js/jquery.cookie.js"></script>
+        <script src="/js/plugins/jquery.magnific-popup.js"></script>
+        <script src="/js/custom/jquery.simple-text-rotator.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KQWZ69" 
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KQWZ69');</script>
+        <!-- End Google Tag Manager -->
+
+
+            <nav class="navbar navbar-slim" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="/about-cashback">Why join?</a></li>
+                    <li><a href="/coupons"><span data-icon="&#xe07c;"></span><em>Coupons & Stores</em></a></li>
+                    <li><a href="javascript:void(0);" class="sign-up">Sign In / Up</a></li>
+                            </ul>
+        </nav>
+    </div>
+</nav>
+
+<header class="header-slim">
+    <div class="container">
+        <div class="row">
+            <div id="brand" class="col-xs-12 col-sm-4 col-md-3 col-lg-3" style="text-align: center;">
+                <a href="/"><img src="/img/logo-large.png"  alt=""></a>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-5 col-lg-6" style="padding-top: 15px;">
+                <form id="search-form" method="GET" action="/search" role="form">
+                    <div class="input-group">
+                      <input type="text" id="search" name="keywords" class="form-control typeahead" placeholder="Finish Line, Kohls, Amazon..." aria-label="...">
+                      <div class="input-group-btn">
+                        <button type="submit" id="search-button" class="btn btn-primary right-submit" type="button">Go!</button>
+                      </div>
+                    </div>
+                </form>
+            </div>
+            <div class="buttons-right col-xs-12 col-sm-12 col-md-4 col-lg-3" style="padding-top: 15px;">
+                                    <a class="btn btn-light ddm3-h" href="/about-cashback">Learn More<span data-icon="&#x43;"></span></a>
+
+                        <ul class="dropdown-menu ddm3" style="display:none;">
+                            <li><a href="/coupons">Coupons</a></li>
+                            <li><a href="/cashback-stores">Cash Back Stores</a></li>
+                            <li><a href="/cashback-apps">Apps</a></li>
+                        </ul>
+
+                    <a class="btn btn-light" href="/">Get $25</a>
+                            </div>
+        </div>
+    </div>
+</header>
+
+<script src="/common/js/header.js"></script>            
+
+<aside id="box-404">
+    <div class="container">
+        <div class="row">
+            <div class="heading-404 col-xs-12">
+                <div class="heading-404-img col-xs-12 col-sm-3">
+                    <img src="/img/404.png" alt="Sorry that link is no longer valid">
+                </div>
+                <div class="heading-404-text col-xs-12 col-sm-9">
+                    <h2><span>Sorry</span> That link is no longer valid.</h2>
+                    <h5>But since we have you, check out these <a href="/cashback-stores">amazing stores</a>.</h5>
+                </div>
+            </div>
+
+            <div class="action-404 col-xs-12">
+                <div class="action-404-bg">
+                    <div class="action-404-img col-xs-12 col-sm-3"></div>
+                    <div class="action-404-text col-xs-12 col-sm-5 col-md-6 col-lg-7">
+                        <p><strong>Did you know?</strong></p>
+                        <p> If you use the app, we could automatically notify you of cash back and coupons</p>
+                    </div>
+                    <div class="action-404-btn col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                        <a href="javascript:void(0);" onclick="downloadApp();" class="btn btn-primary">Let me Try It Out!</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+</aside>
+
+
+        <footer>
+            <div class="footer-social">
+                <div class="container">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 footer-brand">
+                        <img alt="" src="//d26fg97ql61k4.cloudfront.net/img/logo-widget.png">
+                    </div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 footer-icons">
+                        <ul>
+                            <li><a href="https://www.facebook.com/Piggy" class="social_facebook_circle" target="_blank" rel="nofollow"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-xs-12 col-sm-12 col-lg-12 footer-col">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <h3>Get Cash Back!</h3>
+                        <ul>
+                            <li><a href="/cashback-stores">Hot Cashback Stores</a></li>
+                            <li><a href="/coupons">Amazing Online Coupons</a></li>
+                            <li><a href="/about-cashback">All About Automatic Cashback and Amazing Online Coupons</a></li>
+                            <li><a href="/account/earnings" rel="nofollow">Check Your Cash Back</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <h3>Get the Free App!</h3>
+                        <ul>
+                            <li><a href="/cashback-apps">About the App</a></li>
+                            <li><a href="#" onclick="downloadApp()">Download the App</a></li>
+
+                            <h4>REQUEST MORE INFO!</h4>
+                            <li>
+                                <form action="/inforequest" method="post" id="request-info">
+                                    <input type="email" name="email" placeholder="Your Email Address" />
+                                    <input type="submit" class="button blue-button" value="SEND"/>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                                <h3>Start Earning!</h3>
+                        <ul>
+                            <li><a href="#" class="sign-up">Sign up</a></li>
+                                                    <h4>CONTACT US!</h4>
+                            <li><a href="mailto:help@joinpiggy.com">Email</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <ul class="col-xs-12 col-sm-12 col-lg-9">
+                    <li><a href="/info">FAQ's</a></li>
+                    <li><a href="/about-cashback">About</a></li>
+                    <li><a href="/advertising">Advertising Partnerships</a></li>
+                    <!--<li><a href="#">Customer Care</a></li> -->
+                    <li><a href="/terms">Terms of Use</a></li>
+                    <li><a href="/privacy">Privacy Policy</a></li>
+                    <li><a href="/unsubscribe" rel="nofollow">Unsubscribe</a></li>
+                </ul>
+                <p class="col-xs-12 col-sm-12 col-lg-3">Copyright © 2014 All Rights Reserved.</p>
+            </div>
+        </footer>
+
+        <div id="signup-modal" class="modal fade">
+            <div class="modal-dialog" style="width: 700px;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" onclick="location.reload();">
+                            <span aria-hidden="true" class="icon_close_alt"></span>
+                            <span class="sr-only">Close</span>
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">Create your Free Account</h4>
+                    </div>
+
+                    <div class="modal-masthead steps" id="top-first">
+                                                <h5>Register to Get Automatic Cash Back</h5>
+                        <p>It's that easy!</p>
+                                            </div>
+
+                    <div class="modal-masthead steps" id="top-second" style="display:none">
+                        <h5>Type in your password</h5>
+                        <p>Must be 8 charachters long</p>
+                    </div>
+
+                    <div class="modal-body">
+                        <div id="signup-step1">
+                            <div id="signup-error"></div>
+                            <form id="signup-form1" class="signup-form" action="/signupAjax" method="post">
+                                <input type="text" name="email" class="form-control input-lg" placeholder="Your Email">
+                                <input type="hidden" name="user_profile" value="default">
+                                <div class="modal-actions">
+                                    <ul>
+                                        <li><a id="signup_fb_btn" href="/fbauth.php"><img src="/img/social-facebook-small.png" alt="Facebook"></a></li>
+                                    </ul>
+                                    <button type="submit" class="btn btn-lg btn-primary pull-right">Sign up</button>
+                                    <p>Already a Member? <a href="#" onclick="$('#login-modal').modal({backdrop: 'static'}).modal('show');$('#signup-modal').modal('hide');">Sign In</a></p>
+                                </div>
+                            </form>
+                        </div>
+                        <div id="signup-step2" style="display:none;">
+                            <div id="password-message"></div>
+                            <form id="signup-form2" method="post" class="signup-form" action="/passwordAjax">
+                                <input type="hidden" name="user_id"/>
+                                <input type="hidden" class="form-control" placeholder="" name="user_pw"/>
+                                <input type="password" name="newpass2" class="form-control input-lg" placeholder="Password">
+                                <input type="password" name="newpass1" class="form-control input-lg" placeholder="Repeat Password">
+                                <div class="modal-actions">
+                                    <button type="submit" class="btn btn-lg btn-primary pull-right">Sign up</button>
+                                    <p>By registering, you agree to our<a href="/terms">Terms & Conditions</a></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <div id="login-modal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" style="padding-top: 12px;">
+                        <button type="button" class="close" onclick="closeModal();" >
+                            <span aria-hidden="true" class="icon_close_alt"></span>
+                            <span class="sr-only">Close</span>
+                        </button>
+                        <!--<a onclick="$('#login-modal').modal('hide');" class="close" style="padding: 21px;" aria-hidden="true"><i class="glyphicon glyphicon-remove"></i></a>-->
+                                                <h4>Automatic Cashback Awaits!</h4>
+                                            </div>
+
+                    <div class="modal-body" id="top-first">
+
+                        <div id="retrievePasswordDivId" style="display:none;">
+                            <div class="modal-masthead steps">
+                                <h5>RETRIEVE PASSWORD</h5>
+                                <p>Enter your email address</p>
+                            </div>
+                            <div id="getpw-error"></div>
+                            <form method="POST" id="getpassword-form" name="retrievePasswordForm" action="/getpasswordAjax" role="form" class="form-horizontal">
+                                <input type="hidden" name="a" value="24" />
+                                <input type="hidden" name="flag1" value="1" />
+                                <input name="email" type="email" class="form-control input-lg" id="forgotEmailInput" placeholder="Enter your Email Address" value="">
+                                <button type="submit" name="btn-send-pass-reset" class="btn btn-lg btn-primary pull-right">SEND</button>
+                            </form>
+                        </div>
+
+                        <div id="passwordSentDiv" style="display:none;">
+                            <p style=" color: #533445 !important;text-align: center;font-size: 24px;">
+                                Your password has been sent.<br/>
+                                Please check your email and
+                                <span style="cursor:pointer; color:#e24e4e " onclick="showLogin()">Login</span>.
+                            </p>
+                        </div>
+
+                        <div id="loginDivId">
+                            <div class="modal-masthead steps">
+                                <h5>LOG IN</h5>
+                                <p>Enter your email and password</p>
+                            </div>
+
+                            <div id="login-message"></div>
+                            <form id="login-form" method="POST" name="accountform" action="/login/process" class="form-horizontal" role="form">
+                                <input name="email" type="email" style="border-radius: 0px;" class="form-control input-lg" id="inputLoginEmail" placeholder="Enter your Email Address" value="" alt="" title="" required>
+                                <input name="password" type="password"  style="border-radius: 0px;"  class="form-control input-lg" value="" id="inputPassword69" placeholder="Password"  alt="" title="" required>
+                                <div class="modal-actions">
+                                    <ul>
+                                        <li><a id="login_fb_btn"href="/fbauth.php"><img src="/img/social-facebook-small.png" alt="Facebook"></a></li>
+                                        <!--<li><a href=""><img src="/img/social-twitter-small.png" alt="Facebook"></a></li>
+                                        <li><a href=""><img src="/img/social-google-small.png" alt="Facebook"></a></li>-->
+                                    </ul>
+                                    <button type="submit" class="btn btn-lg btn-primary pull-right">Sign in</button>
+                                    <p><a href="javascript:void(0);" onclick="showRetrievePassword();">Retrieve Password</a></p>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="app-coming-soon-modal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" onclick="$('#app-coming-soon-modal').modal('hide');">
+                            <span aria-hidden="true" class="icon_close_alt"></span>
+                            <span class="sr-only">Close</span>
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">App Coming Soon!</h4>
+                    </div>
+
+                    <div class="modal-masthead steps">
+                        <h5>Our mobile app is coming soon!</h5>
+                        <p>Please enter your email address and we will notify you when it is ready.</p>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <div id="getUserEmailDiv">
+                            <form method="POST" id="app-coming-soon-form" action="/getappAjax" name="appemail" role="form" class="form-horizontal">
+                                <input type="hidden" id="app-site-id" name="site_id" value="1">
+                                <input type="hidden" id="app-device" name="device" value="">
+                                <input name="email" type="email" class="form-control input-lg" placeholder="Your Email" id="appEmailInput" value="deleted">
+                                <div id="app-signup-error" style="color:red;"></div>
+                                <button type="submit" style="display: inline-block;height: 40px;line-height: 40px;background:#e85158;padding: 0 15px;border: 0;color: white;">NOTIFY ME</button>
+                            </form>
+                        </div>
+
+                        <div id="thanksDiv" style="display:none;">
+                            <p style=" color: black !important;text-align: center; font-size: 26px;">
+                                Thank you, <span id="newAppEmail"></span>!<br/>
+                                We will notify you when the app is ready.
+                                <div class="header col-xs-4 col-sm-4 col-md-4 col-lg-4" style="width:450px;">
+                                    <div style="float:left;">
+                                        <a href="/cashback-stores">
+                                            <button class="pink-button" style="width: 200px; height: 60px;">SHOP NOW</button>
+                                        </a>
+                                    </div>
+                                    <div style="float:right;">
+                                        <a href="/id">
+                                            <button class="pink-button" style="width: 200px; height: 60px;">FIND A SCHOOL</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="app-info-modal" class="modal fade">
+
+            <div class="install-upper" style="display:none;">
+                <div class="container" style="max-width:50%; float:right">
+                    <img src="//d26fg97ql61k4.cloudfront.net/img/install-arrow-upper.png" alt="Click Allow">
+                    <p>Click <span>"Allow"</span> to begin installation</p>
+                </div>
+            </div>
+
+            <div class="install-upper-safari" style="display:none">
+                <div class="container" style="max-width: 80%; float:right;">
+                    <p>Click <span>"Downloads"</span> and then click download app to begin installation </p> <img src="//d26fg97ql61k4.cloudfront.net/img/install-arrow-upper-right.png" alt="Click Downloads" class="installation-right">
+                </div>
+            </div>
+
+            <div class="install-lower" style="display:none;">
+                <div class="container" style="max-width:60%; float:right">
+                    <div class="text-center">
+                        <p>Click <span>"Run"</span> to begin installation</p><img src="//d26fg97ql61k4.cloudfront.net/img/install-arrow-lower.png" alt="Click Run">
+                    </div>
+                </div>
+            </div>
+
+            <div class="chrome-upper" style="display:none;">
+                <img src='//d26fg97ql61k4.cloudfront.net/img/spiffygif_68x68.gif'/><br/><br/>
+                <span>Loading...</span><br/><br/>
+                                <button class="blue-button" onclick="$('#app-info-modal').modal('hide');">CANCEL</button>
+                            </div>
+
+            <div class="modal-dialog modal-white">
+                <div class="modal-content">
+
+                    <div class="modal-body" id="chrome-steps" style="display:none;">
+                        <div class="row" id="top-first">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <a aria-hidden="true" class="close" onclick="$('#app-info-modal').modal('hide');"><i class="glyphicon glyphicon-remove"></i></a>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                <h3>Step 2 of 3: <span class="highlight">Click "Add"</span></h3>
+                                <h4>and earn cash back automatically every time!</h4>
+                                <a href="javascript:void(0);" onclick="$('#app-info-modal').modal('hide');">or skip automatic cashback and continue » </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-body" id="firefox-steps" style="display:none;">
+                        <div class="row" id="top-first">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <a aria-hidden="true" class="close" onclick="$('#app-info-modal').modal('hide');"><i class="glyphicon glyphicon-remove"></i></a>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                <h3>Step 2 of 3: <span class="highlight">Click "Allow"</span></h3>
+                                <h4>and earn cash back automatically every time!</h4>
+                                <a href="javascript:void(0);" onclick="$('#app-info-modal').modal('hide');">or skip automatic cashback and continue » </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-body" id="ie-steps" style="display:none;">
+                        <div class="row" id="top-first">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <a aria-hidden="true" class="close" onclick="$('#app-info-modal').modal('hide');"><i class="glyphicon glyphicon-remove"></i></a>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                <h3>Step 2 of 3: <span class="highlight">Click "Allow" then "Run"</span></h3>
+                                <h4>and earn cash back automatically every time!</h4>
+                                <a href="javascript:void(0);" onclick="$('#app-info-modal').modal('hide');">or skip automatic cashback and continue » </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-body" id="safari-steps" style="display:none;">
+                        <div class="row" id="top-first">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <a aria-hidden="true" class="close" onclick="$('#app-info-modal').modal('hide');"><i class="glyphicon glyphicon-remove"></i></a>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                <h3>Step 2 of 3: <span class="highlight" id="safari-inst">Open downloads and click the top one</span></h3>
+                                <h4>and earn cash back automatically every time!</h4>
+                                <a href="javascript:void(0);" onclick="$('#app-info-modal').modal('hide');">or skip automatic cashback and continue » </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="signup-group-modal" class="modal fade">
+            <div id="signup-group-modal-container" class="modal-dialog group-signup-modal">
+                <div class="modal-content group-signup-modal">
+                    <div class="modal-header">
+                        <a onclick="exit()" class="close" style="padding: 21px;" aria-hidden="true"><i class="glyphicon glyphicon-remove"></i></a>
+                        <h4 class="modal-title school-modal-title"></h4>
+                    </div>
+
+                    <div class="modal-body dark">
+
+                        <div class="row" id="step1">
+                            <h2 id="pta-hero" style="margin-top: -20px; padding-left: 20px; font-size:32px; color: black;">Become the PTA's Hero in Only 30 seconds!</h2>
+                            <p style="color: black; font-size:16px; line-height:130%; font-family: 'bentonsans','Helvetica','Arial'; padding-left: 20px;">Shop online at over 1,000 Stores, and <strong><span class="school-modal-title"></span></strong> will recieve Automatic Rebates!</p>
+                            <div id="school-modal-description" style="width: 40%;float: left;padding: 0 0 0 30px;text-align: justify;">
+                                <div class="hide-mobile">
+                                    <h3>The 3 Simple Steps</h3>
+                                    <h4>Create an Account</h4>
+                                    (You're on this step, and almost done!)
+                                    <h4>Download the Free App</h4>
+                                    So purchases you make at all your stores (Walmart, Kohls, Target, Macys) earn cash back for your School!
+                                    <h4>Share with your Friends</h4>
+                                    <br />A strong community builds strong children!
+                                </div>
+                            </div>
+                            <div id="group-connect-signup" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="width: 60%; float: right;">
+                                <div class="header col-xs-12 col-sm-5 col-md-4 col-lg-4">
+
+                                    <div id="add-sign-up" class="pull-right">
+                                        <h3 style="color: white" ><strong>Step 1:</strong> Register!</h3>
+                                        <P>So Donations can be tracked and sent to <span class="school-modal-title"></span> </P>
+                                        <form id="group-signup-form1" method="post" action="/signupAjax">
+
+                                            <input name="firstname" type="text" placeholder="First Name"/>
+                                            <input name="lastname" type="text" placeholder="Last Name"/><br/>
+                                            <input name="email" type="email" placeholder="Your Email Address"/><br/>
+                                            <div class="row">
+                                                <input type="hidden" name="next" value="welcome"/>
+                                                <input type="hidden" name="v" value="e9e881356b9a9bcd98a28d30592ce77f"/>
+                                                <input type="submit" value="NEXT"/>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </form>
+
+                                        <div id="group-signup-error" style="text-align: center;color: red;font-size: 12px;"></div>
+                                        <div class="clearfix"></div>
+                                        <div class="fb-signup-area">
+                                            <p class="pull-left or">or</p>
+                                            <div class="or-connect">
+                                                <a href="/fbauth.php">
+                                                    <div id="fts-fb-signup" class="facebook-signup-btn pull-left" style="position:relative;left: -24px;">
+                                                        <button>REGISTER VIA <span>FACEBOOK</span></button>
+                                                    </div>
+                                                </a>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <p class="member" style="text-align: center;color: #0e3655;">Already a Member? <a style="cursor:pointer" onclick="$('#login-modal').modal({backdrop: 'static'}).modal('show');$('#signup-group-modal').modal('hide');">Sign In</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="step2" class="row" style="display:none;" style="height:auto;">
+                            <div id="top-second" class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="header col-xs-12 col-sm-5 col-md-4 col-lg-4">
+                                        <h3>Step 2: Please Create a Password</h3>
+                                        <p style="color: #0e3655;text-align:center;font-size: 15px;">For Security, please choose a private password at least 8 characters long.</p>
+                                    </div>
+                                </div>
+                            </div><br/><br/>
+                            <div style="clear:both;"></div>
+                            <div class="signup col-xs-12 col-sm-10 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-2">
+                                <form id="group-signup-form2" method="post" class="signup-form" action="/passwordAjax">
+                                    <input type="hidden" name="user_id"/>
+                                    <input type="hidden" class="form-control" placeholder="" name="user_pw"/>
+                                    <input type="password" placeholder="New Password" name="newpass2" />
+                                    <input type="password" placeholder="Confirm Password" name="newpass1" />
+                                    <button type="submit">NEXT</button>
+                                </form>
+                                <div class="clearfix"></div>
+                                <div id="password-message2" style="text-align: center;color: red;margin-bottom: -20px;margin-top: 20px;"></div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+
+                        <div id="step3" style="display:none;">
+                            <div class="row welcome-modal-text">
+                                <h2 style="font-size: 58px;margin-left: 47px;">Thanks! You're ready to shop!</h2>
+
+                                <p>The easiest way to shop is to <strong>install our app</strong> for your computer.  With the app you can shop online as you normally would, no need to come back to fortheschools.com again aside from checking your account and school updates.
+                                    <br/>
+                                    Not using the app?  To ensure your school gets cash back, make sure you login to ForTheSchools.com before you shop and select stores, offers, and coupons from our website.</p>
+
+                                    <hr />
+                            </div>
+                            <div class="row welcome-modal-buttons">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <h4 style="text-align: center;">Get the App! Free, Secure, and Easy.</h4>
+                                    <a href="javascript:void(0)" onclick="downloadApp()">
+                                        <div style="text-align: center;margin: 0 auto;width: 250px;background-color: #533445;height: 90px;padding: 16px;" >
+
+                                            <div class="pull-left">
+                                                <img src="/img/icon-download.png" alt="Download our Auotmatic Rebate app and never miss out again!" style="padding: 0 10px;">
+                                            </div>
+
+                                            <div id="app-button" class="pull-right" style="padding: 0 15px;">
+                                                <span style="font-size: 18px;">Click to Install!</span>
+                                                <p style="color:white;font-size: 12px;">Never miss a rebate<br>with our free app!</p>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <h4 style="text-align: center;" >Shop Online & Checkout Deals</h4>
+                                    <a href="/cashback-stores" target="_blank" >
+                                        <div style="text-align: center;margin: 0 auto;width: 250px;background-color: #e24e4e;height: 90px;padding: 16px;" >
+
+                                            <div class="pull-left">
+                                                <img src="/img/icon-download.png" alt="Download our Auotmatic Rebate app and never miss out again!" style="padding: 0 10px;">
+                                            </div>
+
+                                            <!--<div class="pull-right" id="get-it">-->
+                                            <div id="app-button" class="pull-right" style="padding: 0 15px;">
+                                                <span style="font-size: 16px; color: #533445;">Start Shopping!</span>
+                                                <p style="color:white;font-size: 12px;">Browse 1,000+<br>stores online now!</p>
+                                            </div>
+
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div style="clear:both;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer" >
+                        <span class="col-4">Turning your online shopping into fundraising</span>
+                        <img src="/img/logo-large.png" width="175" style="position:relative;top:-5px;">
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <!-- eggtastic below -->
+        <script type="text/javascript">
+            setTimeout(function(){var a=document.createElement("script");
+            var b=document.getElementsByTagName("script")[0];
+            a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0022/9807.js?"+Math.floor(new Date().getTime()/3600000);
+            a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+        </script>
+
+        <div id="switch-groups-modal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" onclick="$('#switch-groups-modal').modal('hide');">
+                            <span aria-hidden="true" class="icon_close_alt"></span>
+                            <span class="sr-only">Close</span>
+                        </button>
+                        <h4 class="modal-title" style="font-size: 21px;">Do you want to make this your primary group?</h4>
+                    </div>
+                    <div class="modal-masthead steps">
+                        <h5>Would you like to make this group<br/> your primary group?</h5>
+                        <p>All of your purchases will raise money<br/> for your primary group automatically!</p>
+                    </div>
+                    <div class="modal-body" style="text-align:center;">
+                        <label class="checkbox-inline">
+                            <input type="radio" id="primary-yes" name="primary" value="yes" checked><label for="primary-yes"><span></span></label> Yes!
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="radio" id="primary-no" name="primary" value="no"><label for="primary-no"><span></span></label> No, keep my current group!
+                        </label>
+                        <div class="modal-actions">
+                            <button type="submit" class="btn btn-lg btn-primary" onclick="switchGroupCookie()">SAVE</button>
+                        </div>
+                    </div>
+
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <script src="/js/typeahead/typeahead.bundle.js"></script>
+        <script src="/js/typeahead/handlebars.runtime-v1.3.0.js"></script>
+
+        <script src="/js/plugins/jquery.tipsy.js"></script>
+        <script src="/js/plugins/jquery.dcmegamenu.1.3.3.js"></script>
+        <script src="/js/plugins/jquery.hoverIntent.js"></script>
+        <script src="/js/plugins/lean-slider.js"></script>
+
+        <script src="/js/plugins/jquery.validate.js"></script>
+        <script src="/js/plugins/additional-methods.js"></script>
+
+        <script src="/js/plugins/jquery.plugin.min.js"></script>
+        <script src="/js/plugins/jquery.countdown.min.js"></script>
+
+        <script src="/common/js/page.js"></script>
+
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=115716231892665&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+        
+        <!-- Facebook conversion tracking and retargeting scripts -->
+        <!-- Facebook Conversion Code for COF_NewUser -->
+        <script>(function() {
+          var _fbq = window._fbq || (window._fbq = []);
+          if (!_fbq.loaded) {
+            var fbds = document.createElement('script');
+            fbds.async = true;
+            fbds.src = '//connect.facebook.net/en_US/fbds.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(fbds, s);
+            _fbq.loaded = true;
+          }
+        })();
+        window._fbq = window._fbq || [];
+        //window._fbq.push(['track', '6016027661922', {'value':'0.00','currency':'USD'}]);
+        </script>
+        <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6016027661922&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
+        
+        <!-- Facebook Conversion Code for Installed App -->
+        <script>(function() {
+            var _fbq = window._fbq || (window._fbq = []);
+            if (!_fbq.loaded) {
+               var fbds = document.createElement('script');
+               fbds.async = true;
+               fbds.src = '//connect.facebook.net/en_US/fbds.js';
+               var s = document.getElementsByTagName('script')[0];
+               s.parentNode.insertBefore(fbds, s);
+               _fbq.loaded = true;
+               }
+            })();
+            window._fbq = window._fbq || [];
+            //window._fbq.push(['track', '6016027796522', {'value':'0.00','currency':'USD'}]);
+        </script><noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6016027796522&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript> 
+        <script>
+        
+        // Call this function anywhere to track signup pixels on facebook goals
+        function trackSignupPixels() {
+            window._fbq.push(['track', '6016027661922', {'value':'0.00','currency':'USD'}]);
+            window._fbq.push(['track', '6019328855884', {'value':'0.00','currency':'USD'}]);
+        }
+        
+        // Call this function anywhere to track app install pixels
+        function trackAppInstallPixels() {
+            window._fbq.push(['track', '6016027796522', {'value':'0.00','currency':'USD'}]);
+        }
+        </script>
+        
+        <!-- crazyegg eggtastic below -->
+        <script type="text/javascript">
+        setTimeout(function(){var a=document.createElement("script");
+        var b=document.getElementsByTagName("script")[0];
+        a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0022/9807.js?"+Math.floor(new Date().getTime()/3600000);
+        a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+        </script>
+
+    </body>
+</html>

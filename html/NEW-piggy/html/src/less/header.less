@@ -1,0 +1,119 @@
+//
+// Header
+// --------------------------------------------------
+
+.hero-bg{
+	background-position: left center;
+	background-repeat: repeat;
+	background-image: url("../img/bg-hero.jpg");
+	width: 100%;
+	float: left;
+	height: 550px;
+	position: relative;
+
+	@media(min-width: @screen-sm-min) {
+		background-image: url("../img/bg-hero.jpg");
+		background-position: left top;
+		background-repeat: repeat;
+		height: 750px;
+	}
+
+	.hero-pig{
+		position: absolute;
+		z-index: 666;
+		bottom: -10%;
+		right: -15%;
+		height: 207px;
+		width: 200px;
+
+		@media(min-width: @screen-sm-min) {
+			height: 516px;
+			width: 500px;
+		}
+		img{
+			width: 100%;
+		}
+
+	}
+
+}
+
+header{
+	margin-bottom: 15px;
+
+	&.navbar{
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top:10px;
+
+		@media(min-width: @screen-sm-min) {
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-top:20px;
+		}
+		@media(min-width: @screen-md-min) {
+			padding-left: 15px;
+			padding-right: 50px;
+			padding-top:30px;
+		}
+		@media(min-width: @screen-lg-min) {
+			padding-left: 15px;
+			padding-right: 50px;
+			padding-top:30px;
+		}
+	}
+
+	.navbar-brand{
+		width: 185px;
+		height: 63px;
+		position: relative;
+		padding:0px;
+		margin-right: 30px;
+
+		@media(min-width: @screen-sm-min) {
+			width: 117px;
+			height: 40px;
+		}
+		@media(min-width: @screen-md-min) {
+			width: 147px;
+			height: 50px;
+		}
+		@media(min-width: @screen-lg-min) {
+			width: 185px;
+			height: 63px;
+		}
+
+		img{
+			width: 100%;
+		}
+		em{
+			position: absolute;
+			z-index: 666;
+			left:95%;
+			top: 50%;
+			color:@brand-primary;
+			font-family:@font-family-heading;
+			text-transform: uppercase;
+			font-style: normal;
+			font-size: 1em;
+			font-weight: 700;
+			letter-spacing: 1px;
+
+			@media(min-width: @screen-sm-min) {
+				font-size: 2em;
+				letter-spacing: 3px;
+				left:100%;
+			}
+		}
+	}
+
+}
+
+.navbar-toggle{
+
+
+	.icon-bar {
+		background:@white; 
+	}
+} 
+

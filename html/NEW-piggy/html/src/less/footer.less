@@ -1,0 +1,109 @@
+//
+// Footer
+// --------------------------------------------------
+
+footer{
+	background-position: left center;
+	background-repeat: repeat;
+	background-image: url("../img/bg-hero.jpg");
+	color:@white;
+	padding:60px 0px;
+	width: 100%;
+	float: left;
+
+
+	.footer-social{
+		padding-bottom: 30px;
+		text-align: center;
+		li{
+			display: inline-block;
+			margin-right: 30px;
+			.footer-icon{
+				font-size: 3em;
+				color:@white;
+				
+				@media(min-width: @screen-md-min){
+					font-size: 3em;
+				}
+				@media(min-width: @screen-lg-min){
+					font-size: 4em;
+				}
+			}
+		}
+	}
+
+	.dual-footer{
+		.make-sm-column(4);
+		.make-md-column(2);
+
+		margin-bottom: 50px;
+	}
+
+	.tri-footer{
+		.make-sm-column(4);
+		.make-md-column(3);
+
+		margin-bottom: 50px;
+	}
+
+	.quad-footer{
+		.make-sm-column(12);
+		.make-md-column(4);
+		.make-md-column-offset(1);
+
+		margin-bottom: 50px;
+	}
+
+	h5{
+		margin-bottom: 15px;
+		margin-top:0px;
+		letter-spacing: 0px;
+		font-family: @font-family-heading-l;
+		color:@brand-secundary-dark;
+		font-size: 1.33em;
+		font-size: normal;
+	}
+
+	ul{
+		margin:0px;
+		padding:0px;
+		list-style-type: none;
+		li{
+			margin-bottom: 10px;
+			a{
+				font-size: 1.33em;
+				font-family: @font-family-base;
+				font-weight: 300;
+				color:@white;
+				text-transform: none;
+
+				@media(min-width: @screen-md-min){
+					font-size: 1.06em;
+				}
+				&:hover{
+					color:@brand-secundary-dark;
+				}
+			}
+		}
+	}
+
+
+	.copyright{
+		.make-sm-column(12);
+		margin-top: 10px;
+		text-align: center;
+		p{
+			font-family: @font-family-base;
+			display: inline-block;
+			font-size: 1em;
+			color:#a8fffd;
+		}
+		a{
+			color:@white;
+			margin-right: 5px;
+			&:hover{
+				color:@brand-secundary-dark;
+			}
+		}
+	}
+}

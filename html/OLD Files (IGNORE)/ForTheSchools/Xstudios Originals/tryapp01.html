@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ForTheSchools</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="user-scalable=0, initial-scale=0.5, width=device-width">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link href="css/web.less" rel="stylesheet/less">
+        <link rel="stylesheet" href="css/customSelect.css">
+        <link rel="stylesheet" href="css/tipsy.css">
+        
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+    <div class="modal-layer">
+        <div class="modal-dialog modal-sim">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="glyphicon glyphicon-remove"></i></button>
+                    <span><img src="img/logo-widget.png" alt="For the School"></span>
+                </div>
+                <div class="modal-body">
+                    <div class="brand-ribbon"><img src="img/walmart-white-sm.png" alt="walmart">
+                        <h3>Try the App, Get <span class="highlight">$5</span> !
+                        <h5><span>2.0% Cash Back</span> at <em>Walmart</em>, and 1,000 other Stores!</h5>
+                    </div>
+
+                    <div class="brand-action">
+                        <form>
+                            <input type="text" placeholder="Your Email Address" class="form-control input-lg">
+                           
+                            <div class="modal-actions">
+                                <button class="btn btn-lg btn-primary pull-left btn-fancy" type="submit">
+                                    <h4>Get the Bonus</h4>
+                                    <p>and the Free App!</p>
+                                    <span data-icon="&#xe052;"></span>
+                                </button>
+                                <button class="btn btn-lg btn-gray pull-right btn-fancy-gray" type="submit">
+                                    <h4>Skip the Bonus</h4>
+                                    <p>just Cash Back please</p>
+                                    <span data-icon="&#xe051;"></span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="brand-terms">
+                    <p><span>Terms and Conditions</span>: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div>
+
+    
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/plugins/jquery.customSelect.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/plugins/jquery.tipsy.js"></script>
+    <script src="js/plugins/jquery.dcmegamenu.1.3.3.js"></script>
+    <script src="js/plugins/jquery.hoverIntent.js"></script>
+
+
+    <script src="js/less-1.7.3.min.js"></script>
+    <script>
+    $(document).ready(function(e){
+
+        $(function () {
+          $('[data-toggle="popover"]').popover()
+        })
+
+       
+
+        $("#admin-input").hide();
+          $("#admin").click(function(event) {
+            if ($(this).is(":checked"))
+              $("#admin-input").show();
+            else
+              $("#admin-input").hide();
+          });
+
+    });
+    
+    </script>
+</body>
+</html>

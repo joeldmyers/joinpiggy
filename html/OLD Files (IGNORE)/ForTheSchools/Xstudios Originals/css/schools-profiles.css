@@ -1,0 +1,454 @@
+
+#schools-profile .downloads {
+    background: none repeat scroll 0 0 #523646;
+    color: #fff;
+    min-height: 768px;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+#schools-profile .downloads h1 {
+    color: #fff;
+    font-family: 'bentonsans',Helvetica,Arial,sans-serif;
+    font-size: 3.571em;
+    margin-bottom: 0;
+    margin-top: 70px;
+    text-align: center;
+}
+#schools-profile .downloads #computer-slide {
+    height: 400px;
+    width: 742px;
+}
+
+
+
+
+#schools-profile .downloads ul li p {
+    color: #fff;
+}
+
+#schools-profile .downloads p {
+    color: #fff;
+}
+#schools-profile .downloads .app-sec {
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+#schools-profile .downloads .app-box h4 {
+    color: #fff;
+    font-family: 'bentonsanslight',Helvetica,Arial,sans-serif;
+    font-size: 30px;
+}
+
+@media (max-width: 992px) {
+#schools-profile .downloads .app-box {
+    margin-bottom:40px;
+}
+}
+
+#schools-profile #school-header {
+    background: url("../img/schools/bg-header.jpg") no-repeat scroll center top / cover rgba(0, 0, 0, 0);
+    min-height: 300px;
+}
+#schools-profile #school-header .container {
+    position: relative;
+}
+#schools-profile #school-header .logo {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 8px;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.35);
+    display: table;
+    float: left;
+    margin-top: 64px;
+    min-height: 180px;
+    min-width: 180px;
+    padding-top: 10px;
+    vertical-align: middle;
+}
+#schools-profile #school-header .logo img {
+    display: table-cell;
+    margin: 0 auto;
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+#schools-profile #school-header .logo {
+    float: none;
+    margin: 25px auto 0;
+}
+#schools-profile #school-header .logo img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+}
+@media (max-width: 991px) and (min-width: 768px) {
+#schools-profile #school-header .logo {
+    float: none;
+    margin: 25px auto 0;
+}
+#schools-profile #school-header .logo img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+}
+@media (max-width: 768px) {
+#schools-profile #school-header .logo {
+    float: none;
+    margin: 25px auto 0;
+}
+#schools-profile #school-header .logo img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+}
+#schools-profile #school-header .information {
+    float: left;
+    width: 690px;
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+#schools-profile #school-header .information {
+    float: left;
+    width: 430px;
+}
+}
+@media (max-width: 991px) and (min-width: 768px) {
+#schools-profile #school-header .information {
+    float: none;
+    width: auto;
+}
+}
+@media (max-width: 768px) {
+#schools-profile #school-header .information {
+    float: none;
+    width: auto;
+}
+}
+#schools-profile #school-header .name {
+    float: left;
+    margin-left: 20px;
+    margin-top: 120px;
+    max-width: 420px;
+}
+#schools-profile #school-header .name .divider {
+    background: none repeat scroll 0 0 #533445;
+    height: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+#schools-profile #school-header .name h1 {
+    color: #533445;
+    font-family: 'bentonsansmedium',Helvetica,Arial,sans-serif;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#schools-profile #school-header .name h2 {
+    color: #533445;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+#schools-profile #school-header .name {
+    margin-top: 20px;
+}
+}
+@media (max-width: 991px) and (min-width: 768px) {
+#schools-profile #school-header .name {
+    float: none;
+    margin: 25px auto;
+}
+}
+@media (max-width: 768px) {
+#schools-profile #school-header .name {
+    float: none;
+    margin: 25px auto;
+}
+}
+#schools-profile #school-header .three-steps {
+    background: url("../img/schools/header-banner.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 329px;
+    margin-top: 50px;
+    position: absolute;
+    right: 0;
+    width: 473px;
+    z-index: 100;
+    padding:15px 20px;
+}
+#schools-profile #school-header .three-steps h3 {
+    color: #fff;
+    font-family: 'bentonsansmedium',Helvetica,Arial,sans-serif;
+    font-size: 34px;
+    margin:0px;
+    margin-bottom: 15px;
+    padding: 0;
+    text-align: left;
+}
+#schools-profile #school-header .three-steps ol {
+    padding: 0;
+}
+#schools-profile #school-header .three-steps ol li {
+    color: #fff;
+    font-family: 'bentonsansbook',Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    list-style: none outside none;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#schools-profile #school-header .three-steps #download-now {
+    background: url("../img/schools/install-now.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 55px;
+    margin: 37px auto 0;
+    width: 270px;
+}
+#schools-profile #school-header .three-steps p {
+    color: #fff;
+    font-family: 'bentonsansbook',Helvetica,Arial,sans-serif;
+    text-align: left;
+    font-size:1em;
+    margin:0px;
+    margin-bottom: 10px;
+    float:left;
+}
+
+#schools-profile #school-header .three-steps p:last-child {
+    font-size:1.2em;
+}
+#schools-profile #school-header .three-steps p a {
+    color: #66c3d4;
+    font-family: 'bentonsansmedium',Helvetica,Arial,sans-serif;
+    cursor: pointer;
+}
+
+#schools-profile #school-header .three-steps form{
+    margin:10px 0px;
+}
+
+#schools-profile #school-header .three-steps form input{
+    margin-bottom:10px;
+    float: left;
+}
+
+#schools-profile #school-header .three-steps form input.form-control-half{
+    width:210px;
+    float: left;
+    margin-right:12px;
+}
+
+#schools-profile #school-header .three-steps form input.form-control-half:nth-child(even){
+    margin-right:0px;
+}
+
+#schools-profile #school-header .three-steps form button{
+    float:left;
+    width:250px;
+}
+
+#schools-profile #school-header .three-steps .social-signup{
+    float:left;
+    border-left:1px solid #333;
+    padding-left:20px;
+    margin-bottom:10px;
+    height:55px;
+    margin-left:20px;
+}
+
+#schools-profile #school-header .three-steps .social-signup p{
+    display: inline;
+    color:#fff;
+    float:left;
+    margin-top:15px;
+}
+
+#schools-profile #school-header .three-steps .sq{
+    width:50px;
+    float:left;
+    margin-left:10px;
+    cursor: pointer;
+}
+
+#schools-profile #school-header .three-steps .sq span{
+    font-size:2em;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #schools-profile #school-header .three-steps {
+        float: right;
+        margin-top: 10px;
+        position: static;
+        padding:15px 20px;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    #schools-profile #school-header .three-steps {
+        margin: 25px auto;
+        padding-top: 1px;
+        position: static;
+        padding:15px 20px;
+    }
+}
+@media (max-width: 768px) {
+    #schools-profile #school-header .three-steps {
+        margin: 25px auto;
+        padding-top: 1px;
+        position: static;
+        padding:15px 20px;
+    }
+}
+#schools-profile #school-header .ten-seconds {
+    background: url("../img/schools/ten-seconds.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: -210px;
+    height: 70px;
+    position: absolute;
+    right: 0;
+    width: 274px;
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+    #schools-profile #school-header .ten-seconds {
+        bottom: -60px;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    #schools-profile #school-header .ten-seconds {
+        margin: 0 auto 25px;
+        position: static;
+    }
+}
+@media (max-width: 768px) {
+    #schools-profile #school-header .ten-seconds {
+        margin: 0 auto 25px;
+        position: static;
+    }
+}
+#schools-profile #main {
+    max-height: 1000px;
+}
+#schools-profile #main h4 {
+    font-family: 'bentonsanslight',Helvetica,Arial,sans-serif;
+    font-size: 60px;
+    margin-top: 135px;
+    text-align: center;
+    margin-bottom:60px;
+}
+@media (max-width: 768px) {
+    #schools-profile #main h4 {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+}
+#schools-profile #main .divider {
+    background: none repeat scroll 0 0 #533445;
+    height: 1px;
+    margin: 30px auto;
+    width: 560px;
+}
+@media (max-width: 768px) {
+    #schools-profile #main .divider {
+        width: 80%;
+    }
+}
+#schools-profile #main p {
+    color: #666;
+    font-family: 'bentonsanslight',Helvetica,Arial,sans-serif;
+    font-size: 26px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+#schools-profile #main p strong {
+    font-family: 'bentonsansmedium',Helvetica,Arial,sans-serif;
+}
+
+@media (max-width: 768px) {
+    #schools-profile #main p {
+        font-size: 18px;
+    }
+}
+#schools-profile #main .video {
+    border-radius: 8px;
+    height: auto;
+    margin: 0 auto;
+    padding: 9px;
+    position: relative;
+}
+
+#schools-profile #main .video h3 {
+    font-family: 'bentonsanslight',Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    text-align: center; 
+}
+#schools-profile #main .video img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    border:5px solid #533445;
+    border-radius: 4px;
+}
+
+#schools-profile #main .bigvideo img {
+    display: block;
+    height: auto;
+    width: 100%;
+    border:10px solid #533445;
+    border-radius: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+    #schools-profile #main .video {
+        height: auto;
+        margin: 0 auto;
+        padding-bottom: 9px;
+    }
+    #schools-profile #main .bigvideo{
+        margin-bottom:20px;
+    }
+}
+#schools-profile #main .video .play {
+    background: url("../img/schools/play.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 109px;
+    left: 50%;
+    margin-left: -54.5px;
+    margin-top: -54.5px;
+    position: absolute;
+    top: 50%;
+    width: 109px;
+    z-index: 100;
+}
+#schools-profile .defaultImg {
+    background: url("/img/group-defaultbg-100.png") no-repeat scroll 50% 50% rgba(0, 0, 0, 0);
+    display: inline-block;
+    font-size: 25px;
+    height: 178px;
+    padding: 90px 3px 0 0;
+    text-align: center;
+    width: 178px;
+}
+#schools-profile .support-school {
+    text-align: left;
+}
+#schools-profile .support-school p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+#schools-profile #faqs h2{
+    background:#E85158;
+    font-family: 'bentonsanslight',Helvetica,Arial,sans-serif;
+    font-size: 40px;
+    color:#fff;
+    text-align: center;
+    padding:30px 0px;
+    float:left;
+    width: 100%;
+    margin-bottom:20px;
+
+}

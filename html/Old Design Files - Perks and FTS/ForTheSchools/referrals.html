@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ForTheSchools.com</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="user-scalable=0, initial-scale=0.5, width=device-width">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link href="css/web.less" rel="stylesheet/less">
+<!-- added to view locally in firefox  - NOT FOR PRODUCTION -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
+        <link rel="stylesheet" href="css/customSelect.css">
+
+        
+        <!--[if lt IE 9]>
+          <script src="/https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="/https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container container-fluid">
+            <div id="welcome-back" class="pull-left">
+                <a href="/" class="pull-left"><img src="/img/fts-logo.png" alt=""/></a>
+                <div class="hidden-xs hidden-sm pull-left">Welcome! <a href="#">Sign Up</a> <span>/</span> <a href="#">Sign In</a></div>
+            </div>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" class="icon star hidden-xs"></a><a href="#" class="secondary hidden-sm hidden-md hidden-lg">Daily Deals</a></li>
+                <li><a href="#" class="icon dollar hidden-xs"></a><a href="#" class="secondary hidden-sm hidden-md hidden-lg">Stores</a></li>
+                <li><a href="#" class="icon coupons hidden-xs"></a><a href="#" class="secondary hidden-sm hidden-md hidden-lg">Coupons</a></li>
+                <li><a href="#" class="icon download hidden-xs"></a><a href="#" class="secondary hidden-sm hidden-md hidden-lg">Favorites</a></li>
+                <li><a href="#" class="icon account hidden-xs"></a><a href="#" class="secondary hidden-sm hidden-md hidden-lg">Lists</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+    <header class="secondary">
+        <div class="container">
+
+                <div class="pull-left col-xs-12 col-sm-12 col-md-12 col-lg-3">
+                    <h3>Find your School</h3>
+                </div>
+                <div class="pull-left col-xs-12 col-sm-10 col-md-10 col-lg-7">
+                    <form>
+                        <input type="text" class="form-control typeahead" placeholder="Search 1,000's of Stores &amp; Deals...">
+                        <span class="help-block pull-right">Can´t find your School ? <a href=""> Add it here.</a></span>
+                    </form>
+                </div>
+                <div id="join" class="pull-left col-xs-6 col-sm-2 col-md-2 col-lg-2">
+                    <button type="button" class="button">Search</button>
+                </div>
+
+            
+            <form>
+
+            </form>
+        </div>
+    </header>
+    <div id="main">
+        <div class="container">
+
+            <div class="col-xs-2 col-sm-4 col-md-4 col-lg-3 menu-left">
+                <div class="heading">Account</div>
+                <ul>
+                    <li><a href="/account/profile"><span class="icon_profile"></span> My Account</a></li>
+                    <li><a href="/account/profile"><span class="icon_grid-3x3"></span> My Groups</a></li>
+                    <li><a href="/account/profile"><span class="icon_star"></span> Favorites</a></li>
+                    <li class="active"><a href="/account/profile"><span class="icon_chat"></span> Referrals</a></li>
+                    <li><a href="/account/profile"><span class="icon_bag"></span> Purchases</a></li>
+                    <li><a href="/account/profile"><span class="icon_cog"></span> Preferences</a></li>
+                </ul>
+            </div>
+
+            <div id="content" class="col-xs-10 col-sm-8 col-md-8 col-lg-9 menu-content">
+                <div class="heading">Referrals</div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" >
+                    <div class="data-box">
+                        <p>Share your support</p>
+                        <div class="panel-box">
+                            <a href="">
+                                <div class="col-md-12 col-lg-3 sq sq-facebook">
+                                    <span data-icon="&#xe093;"></span>
+                                    <p>Facebook</p>
+                                </div>
+                            </a>
+                           <a href="">
+                                <div class="col-md-12 col-lg-3 sq sq-twitter">
+                                    <span data-icon="&#xe094;"></span>
+                                    <p>Twitter</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="col-md-12 col-lg-3 sq sq-pinterest">
+                                    <span data-icon="&#xe095;"></span>
+                                    <p>Pinterest</p>
+                                </div>
+                            </a>
+                        </div>
+                        <hr>
+                        <p>Send an email from your account</p>
+                        <form>
+                            <textarea class="form-control" rows="3" placeholder="Add email addresses here (one per line)"></textarea>
+                            <input type="submit" class="btn btn-primary" value="Send">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" >
+                    <div class="data-box data-box-dark">
+                        <p>Copy and paste this link</p>
+                        <input type="text" class="form-control" value="http://www.fortheschools.com?tid=10&ref3=L&ref5=215">
+                        <hr>
+
+                        <p>Copy and paste this HTML link</p>
+                        <input type="text" class="form-control" value="<a href='http://www.fortheschools.com?tid=10&ref3=L&ref5=215'>Shop online at your favorite stores and help raise money for your school!</a>">
+                        <hr>
+
+                        <p>Copy and paste this Email</p>
+                        <textarea class="form-control" rows="4" value="http://www.fortheschools.com?tid=10&ref3=L&ref5=215">Join For The Schools now to help earn money for your school with your online purchases! Click this link: http://www.fortheschools.com?tid=10&ref3=E&ref5=215</textarea>
+                    </div>
+                </div>
+
+
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+                    <div class="data-box">
+                        <p>My referrals <span class="counter">76</span></p>
+                        <div class="panel-box">
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 referral">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="">
+                                    <img src="/img/referral01.jpg" alt="Nick A." >
+                                </div>
+                                <p>Nick A.</p>
+                                <em>Teacher</em>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 referral">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="">
+                                    <img src="/img/referral01.jpg" alt="Nick A.">
+                                </div>
+                                <p>Ricardo A.</p>
+                                <em>Designer</em>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 referral">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="">
+                                    <img src="/img/referral01.jpg" alt="Nick A.">
+                                </div>
+                                <p>Ricardo A.</p>
+                                <em>Designer</em>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 referral">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="">
+                                    <img src="/img/referral01.jpg" alt="Nick A.">
+                                </div>
+                                <p>Ricardo A.</p>
+                                <em>Designer</em>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 referral">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="">
+                                    <img src="/img/referral01.jpg" alt="Nick A." >
+                                </div>
+                                <p>Nick A.</p>
+                                <em>Teacher</em>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 referral">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="">
+                                    <img src="/img/referral01.jpg" alt="Nick A.">
+                                </div>
+                                <p>Ricardo A.</p>
+                                <em>Designer</em>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 referral">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="">
+                                    <img src="/img/referral01.jpg" alt="Nick A.">
+                                </div>
+                                <p>Ricardo A.</p>
+                                <em>Designer</em>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 referral">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="">
+                                    <img src="/img/referral01.jpg" alt="Nick A.">
+                                </div>
+                                <p>Ricardo A.</p>
+                                <em>Designer</em>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+                
+
+        </div>
+
+
+
+            
+            
+
+    </div>
+    <div id="subscribe">
+        <div class="container">
+            <div class="logo col-md-2 col-lg-2">
+                <a href="/"><img src="/img/fts-logo.png" alt=""></a>
+            </div>
+            <div class="sub col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                    <p><em>Subscribe</em> <br/> to get offers right to your inbox!</p>
+                </div>
+                <div id="email" class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                    <form>
+                        <input type="email" placeholder="Enter Your Email" class="col-xs-6 col-sm-6 col-md-12"/>
+                    </form>
+                </div>
+            </div>
+            <div id="social" class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                <img src="/img/temp-facebooktwitter.png" />
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <ul class="col-xs-12 col-sm-12 col-lg-9">
+                <li><a href="#">FAQ's</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Advertising Partnerships</a></li>
+                <li><a href="#">Customer Care</a></li> 
+                <li><a href="#">Terms of Use</a></li>   
+                <li><a href="#">Privacy Policy</a></li>  
+                <li><a href="#">Unsubsribe</a></li>
+            </ul>
+            <p class="col-xs-12 col-sm-12 col-lg-3">Copyright © 2014 All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/plugins/jquery.customSelect.min.js"></script>
+    <script src="/js/bootstrap/bootstrap.min.js"></script>
+    <script src="/js/plugins/circles.js"></script>
+    <script src="/js/fortheschools/global.js"></script>
+    <script src="/js/fortheschools/school.js"></script>
+    <script src="/js/plugins/typeahead.js"></script>
+    <script src="/js/less-1.7.3.min.js"></script>
+
+    <script>
+        var substringMatcher = function(strs) {
+        return function findMatches(q, cb) {
+        var matches, substrRegex;
+         
+        // an array that will be populated with substring matches
+        matches = [];
+         
+        // regex used to determine if a string contains the substring `q`
+        substrRegex = new RegExp(q, 'i');
+         
+        // iterate through the pool of strings and for any string that
+        // contains the substring `q`, add it to the `matches` array
+        $.each(strs, function(i, str) {
+            if (substrRegex.test(str)) {
+            // the typeahead jQuery plugin expects suggestions to a
+            // JavaScript object, refer to typeahead docs for more info
+            matches.push({ value: str });
+            }
+            });
+             
+            cb(matches);
+            };
+        };
+         
+        var states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California',
+        'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii',
+        'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana',
+        'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota',
+        'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire',
+        'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota',
+        'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island',
+        'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont',
+        'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'
+        ];
+         
+        $('.typeahead').typeahead({
+            hint: true,
+            highlight: true,
+            minLength: 1
+            },
+        {
+            name: 'states',
+            displayKey: 'value',
+            source: substringMatcher(states),
+            templates: {
+                 empty: [
+                    '<div class="empty-message">',
+                      '<p>Unfortunatelly we coud not find items that match the current query. Please try again.</p>',
+                    '</div>'
+                  ].join('\n'),
+                  footer : [
+                    '<div class="more-results">',
+                      '<a href="#">View more results...</a>',
+                    '<div>'
+                  ].join('\n')
+                }
+        });
+    </script>
+</body>
+</html>

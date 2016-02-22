@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PursePerks.com</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="user-scalable=0, initial-scale=0.5, width=device-width">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/web.css">
+        <style>
+            #lean_overlay {
+                position: fixed;
+                z-index:100;
+                top: 0px;
+                left: 0px;
+                height:100%;
+                width:100%;
+                background: #000;
+                display: none;
+            }
+            #exitmodal {
+                right: 25px;
+                top: 25px;
+                background:white;
+                display:none;
+                left: 85% !important;
+                padding:10px;
+            }
+            input[type="radio"] {
+                width:10px;
+                opacity: 1;
+                margin-right:10px;
+                position:relative;
+                top:2px;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="widget-narrow activate">
+        <img class="logo" src="img/logo-large.png" />
+        <div class="cta">
+            <p class="offer">Up to <span class="percent">4.0%</span> Cash Back<br><span>at bestbuy.com   <a href="" style="color:#e45243">View Coupons</a></span></p>
+            <a href="" class="activate-btn">ACTIVATE NOW</a>
+        </div>
+        <img src="img/widget-close-btn.png" class="close-btn" id="exit" rel="leanModal" name="exit" href="#exitmodal">
+    </div>
+
+    <div id="exitmodal">
+        <div>
+            How long would you like to disable Best Buy?
+            <div style="clear:both;"></div>
+                <input type="radio" name="time" value="hour" checked/>1 hour<br/>
+                <input type="radio" name="time" value="day"/>24 hours<br/>
+                <input type="radio" name="time" value="forever"/>Forever<br/>
+                <button type="submit" onclick="hideBar()">Disable</button>
+            
+        </div>
+    </div>
+        
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/plugins/jquery.customSelect.min.js"></script>
+    <script src="js/plugins/jquery.cycle.all.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script><!--
+    <script src="js/purseperks/global.js"></script>
+    <script src="js/purseperks/inner.js"></script>-->
+    <script src="js/plugins/jquery.leanModal.min.js"></script>
+    <script>
+    $("#exit").leanModal({ top : 25, overlay : 0.4, closeButton: ".modal_close" });
+    function hideBar() {
+        $('.widget-narrow').hide();
+        $('#exitmodal').hide();
+        $('#lean_overlay').hide();
+    }
+    </script>
+    </body>
+</html>

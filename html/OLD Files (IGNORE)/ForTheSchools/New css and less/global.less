@@ -1,0 +1,411 @@
+//------------------------------------------------------------------------
+// Global Vars
+//------------------------------------------------------------------------
+
+@primaryColor: #66c3d4;
+@secondaryColor: #16bfc6;
+@terciaryColor: #533445;
+@bodyBackground: #fcf7f0;
+@primaryFontColor: #553445;
+@accentColor: #533445;
+@whiteColor: #FFF;
+@blackColor: #000;
+@buttonColor: #E24E4E;
+@buttonHoverColor: #CA3434;
+@graylightColor:#CCC;
+@grayColor:#666;
+@graydarkColor:#333;
+@installationColor:#FFC926;
+
+//------------------------------------------------------------------------
+// Fonts
+//------------------------------------------------------------------------
+@betonLight: 'bentonsanslight', Helvetica, Arial, sans-serif;
+@betonThin: 'bentonsansthin', Helvetica, Arial, sans-serif;
+@betonMedium: 'bentonsansmedium', Helvetica, Arial, sans-serif;
+@betonBold: 'bentonsansbold', Helvetica, Arial, sans-serif;
+@betonBook: 'bentonsansbook', Helvetica, Arial, sans-serif;
+@beton: 'bentonsans', Helvetica, Arial, sans-serif;
+
+@font-large:30px;
+@font-big:50px;
+//------------------------------------------------------------------------
+// GLOBAL CSS
+//------------------------------------------------------------------------
+
+html, body {
+  width: 100%;
+  margin: 0px;
+}
+body{
+	-webkit-text-size-adjust: none; 
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
+	background:@bodyBackground;
+}
+//------------------------------------------------------------------------
+// Fonts
+//------------------------------------------------------------------------
+@font-face {
+    font-family: 'bentonsansextralight';
+    src: url('../fonts/bentonsans-extralight-webfont.eot');
+    src: url('../fonts/bentonsans-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bentonsans-extralight-webfont.woff') format('woff'),
+         url('../fonts/bentonsans-extralight-webfont.ttf') format('truetype'),
+         url('../fonts/bentonsans-extralight-webfont.svg#bentonsansextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bentonsansthin';
+    src: url('../fonts/bentonsans-thin-webfont.eot');
+    src: url('../fonts/bentonsans-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bentonsans-thin-webfont.woff') format('woff'),
+         url('../fonts/bentonsans-thin-webfont.ttf') format('truetype'),
+         url('../fonts/bentonsans-thin-webfont.svg#bentonsansthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bentonsanslight';
+    src: url('../fonts/bentonsans-light-webfont.eot');
+    src: url('../fonts/bentonsans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bentonsans-light-webfont.woff') format('woff'),
+         url('../fonts/bentonsans-light-webfont.ttf') format('truetype'),
+         url('../fonts/bentonsans-light-webfont.svg#bentonsanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bentonsans';
+    src: url('../fonts/bentonsans-regular-webfont.eot');
+    src: url('../fonts/bentonsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bentonsans-regular-webfont.woff') format('woff'),
+         url('../fonts/bentonsans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/bentonsans-regular-webfont.svg#bentonsans_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bentonsansmedium';
+    src: url('../fonts/bentonsans-medium-webfont.eot');
+    src: url('../fonts/bentonsans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bentonsans-medium-webfont.woff') format('woff'),
+         url('../fonts/bentonsans-medium-webfont.ttf') format('truetype'),
+         url('../fonts/bentonsans-medium-webfont.svg#bentonsansmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bentonsansbold';
+    src: url('../fonts/bentonsans-bold-webfont.eot');
+    src: url('../fonts/bentonsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bentonsans-bold-webfont.woff') format('woff'),
+         url('../fonts/bentonsans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/bentonsans-bold-webfont.svg#bentonsansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bentonsansbook';
+    src: url('../fonts/bentonsans-book-webfont.eot');
+    src: url('../fonts/bentonsans-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bentonsans-book-webfont.woff') format('woff'),
+         url('../fonts/bentonsans-book-webfont.ttf') format('truetype'),
+         url('../fonts/bentonsans-book-webfont.svg#bentonsansbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+//------------------------------------------------------------------------
+// Headings
+//------------------------------------------------------------------------
+h1{
+	font-family: 'bentonsansmedium', Helvetica, Arial, sans-serif;
+	color:#ffffff;
+	font-size: 160px;
+}
+h2{
+	font-family: 'bentonsans', Helvetica, Arial, sans-serif;
+	color:#ffffff;
+	font-size: 62px;
+}
+
+//------------------------------------------------------------------------
+// Navigation
+//------------------------------------------------------------------------
+.container{
+	max-width:1170px;
+	padding:0px;
+}
+.navbar-header{
+	margin:0!important;
+	
+}
+.navbar-collapse{
+	//background-color:#0f3655;
+}
+.navbar{
+	min-height: 53px;
+	border-radius: 0px;
+	background-color:#0f3655;
+	&.navbar-default{
+		background-color:@primaryColor;
+		border:none;
+		margin:0;
+		li{
+			margin-top:10px;
+			height: 32px;
+			border-right: 1px solid #11929c;
+			padding-right:20px;
+			padding-left:20px;
+			.secondary{
+				display: none;
+			}
+			.icon{
+				display: block;
+			}
+		}
+	}
+	.in{
+		padding:0;
+		margin:0;
+		width:100%;
+		ul{
+			margin:0;
+			li{
+				margin:0;
+				background-color:@accentColor;
+				height: 49px;
+				border-bottom:1px solid #643f53;
+
+				.secondary{
+					display: block;
+				}
+				.icon{
+					display: none;
+				}
+				&:hover{
+					background-color:#e24e4e;
+				}
+				a{
+					line-height: 25px;
+					color:#ffffff;
+					font-family: 'bentonsansbold', Helvetica, Arial, sans-serif;
+				}
+			}
+		}
+	}
+	.navbar-toggle{
+		border:none;
+		&:hover{
+			background-color:@secondaryColor;
+		}
+		.icon-bar{
+			height: 7px;
+			width:30px;
+			background-color:#ffffff;
+		}	
+	}
+	#welcome-back{
+		color:#ffffff;
+		font-size: 13px;
+		font-family: 'bentonsansbold', Helvetica, Arial, sans-serif;
+		line-height: 53px;
+		z-index: 10;
+		position: relative;
+		img{
+			display: inline-block;
+			margin-right: 55px;
+		}
+		a{
+			margin-top:4px;
+			margin-left: 10px;
+			color:#ffffff;
+		}
+		span{
+			display: inline-block;
+			margin-left:10px;
+			
+		}
+		@media (max-width: 767px) {
+			padding-left:20px
+		}
+	}
+}
+/* Mega Menu Styles */
+.mega-menu ul, .mega-menu ul li {list-style: none;}
+.mega-menu ul {position: relative; padding: 0; margin: 0;}
+.mega-menu ul li ul {display: none;}
+.mega-menu .sub {display: none;}
+.mega-menu .sub ul {display: block;}
+
+#navigation {
+    position: relative; 
+    .sub{
+        ul{
+            display: block;
+        }
+    }
+    li {
+        .sub-container {
+        	width:190px;
+        	position: absolute;
+        	top:37px!important;
+        	left:-78px!important;
+        }
+        .sub {
+            margin-top: 5px;
+            background:@accentColor;
+            li{
+                display: block;
+                height: 40px;
+                line-height: 40px;
+                width:auto;
+                border:none;
+                padding:0px 10px 0px 10px;
+                &:hover{
+                	background-color: #e85158;
+                }
+                a{
+                    height: 25px;
+                    display: inline-block;
+                    line-height: 1;
+                    width:190px;
+                    color:#ffffff; 	
+                    font-family: 'bentonsansbold', Helvetica, sans-serif;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+//------------------------------------------------------------------------
+// Icons
+//------------------------------------------------------------------------
+.icon{
+	&.star{
+		width:30px;
+		height: 30px;
+		background:url(../img/sprite-star.png) no-repeat;
+		&:hover{
+			background-position: 0 -30px;
+		}
+	}
+	&.dollar{
+		width:30px;
+		height: 30px;
+		background:url(../img/sprite-dollar.png) no-repeat;
+		&:hover{
+			background-position: 0 -30px;
+		}
+	}
+	&.coupons{
+		width:30px;
+		height: 30px;
+		background:url(../img/sprite-coupons.png) no-repeat;
+		&:hover{
+			background-position: 0 -30px;
+		}
+	}
+	&.download{
+		width:30px;
+		height: 30px;
+		background:url(../img/sprite-download.png) no-repeat;
+		&:hover{
+			background-position: 0 -30px;
+		}
+	}
+	&.account{
+		width:60px;
+		height: 30px;
+		background:url(../img/sprite-account.png) no-repeat;
+		&:hover{
+			background-position: 0 -30px;
+		}
+	}
+    &.money-certificate{
+        width: 14px;
+        height: 14px;
+        background: url(../img/icon-money-certificate.png) no-repeat;
+    }
+    &.list{
+        width: 14px;
+        height: 14px;
+        background: url(../img/icon-list.png) no-repeat;
+    }
+}
+//------------------------------------------------------------------------
+// footer
+//------------------------------------------------------------------------
+footer{
+	background-color:@accentColor;
+	min-height: 75px;
+	color:#ffffff;
+	font-size: 13px;
+	font-family: 'bentonsansbold', Helvetica, Arial, sans-serif;
+	padding-top:33px;
+	text-align: center;
+	ul{
+		li{
+			display: inline-block;
+			a{
+
+				font-family: 'bentonsansbold', Helvetica, Arial, sans-serif;
+				color:#ffffff;
+				text-decoration: none;
+				&:hover{
+					text-decoration: none;
+				}
+			}
+			&:after{
+				font-family: 'bentonsanslight', Helvetica, Arial, sans-serif;
+                content : '/';
+                padding-left: 3px;
+                padding-right: 3px;
+            }
+            &:last-child{
+                &:after{
+                    content: '';
+                }
+            }
+		}
+	}
+	p{
+		color:#ffffff;
+	}
+}
+
+.checkbox{
+    //margin-top:30px;
+    label{
+        color:#524359;
+        font-family: 'dosisregular';
+        font-size: 1.429em;
+    }
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width:auto!important;
+    opacity:0;
+    + label span {
+        display:inline-block;
+        width:25px;
+        height:25px;
+        margin:0;
+        vertical-align:middle;
+        cursor:pointer;
+        background:url(../img/sprite-checkbox.png) left top no-repeat;
+        margin-right:12px;
+    }
+    position: absolute;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    &:checked + label span {
+        background-position: 0 -25px;
+    }
+}
+

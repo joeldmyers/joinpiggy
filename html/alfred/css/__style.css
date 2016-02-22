@@ -1,0 +1,480 @@
+/* 404 */
+#box-404 {
+    margin-top:55px !important;
+}
+
+/* Interstitial */
+#inter-signup-modal .modal-content .modal-header .modal-title {
+    font-size: 18px;
+}
+#inter-signup-modal {
+    background-size: 100%;
+    background-color: rgb(66, 66, 66);
+    background-blend-mode: multiply;
+}
+#inter-modal, #inter-signup-modal.darker {
+    background-size: 100% 100%;
+    background-color: rgb(84, 84, 84);
+    background-blend-mode: multiply;
+}
+#inter-signup-modal .modal-backdrop {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 0;
+    position: relative;
+}
+#inter-signup-modal .modal-dialog.modal-sim .modal-content .modal-body .modal-action-left .left-brand {
+    border: none;
+}
+#inter-signup-modal .modal-dialog.modal-sim .modal-content .modal-body .brand-ribbon, .modal-dialog.modal-sim .modal-content .modal-body .brand-full {
+    background: none;
+}
+#inter-signup-modal .modal-dialog.modal-sim .modal-content .modal-body .brand-ribbon img, .modal-dialog.modal-sim .modal-content .modal-body .brand-full img {
+    padding-left: 10px;
+    padding-top: 0;
+}
+#inter-signup-modal .modal-dialog.modal-sim .modal-content .modal-body .brand-full h5 {
+    font-size: 27px;
+}
+#inter-signup-modal .modal-dialog.modal-sim .modal-content .modal-body .modal-action-left .left-brand img {
+    position: relative;
+    top: 0;
+}
+#inter-signup-modal .modal-body {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+#inter-signup-modal .btn-primary {
+    background-color: #E24E4E;
+    border-color: #E24E4E;
+    color: #FFF;
+}
+#inter-signup-modal .btn-primary:hover {
+    background-color: #CA3434;
+    border-color: #CA3434;
+    color: #FFF;
+}
+#inter-signup-modal .btn-lg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#inter-signup-modal #email {
+    width: 480px;
+}
+#inter-signup-modal .modal-content {
+    border: none;
+    background: white;
+}
+#inter-signup-modal .modal-dialog.modal-sim .modal-content .modal-body .brand-ribbon ul, .modal-dialog.modal-sim .modal-content .modal-body .brand-full ul {
+    margin-left: 100px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+#inter-signup-modal .brand-terms a {
+    color: white;
+    font-weight: bold;
+}
+#q {
+    border: 1px solid #000;
+}
+
+/* Navbar */
+.dropdown-menu {
+    padding:0;
+    margin:0;
+}
+.dropdown-menu li {
+    height:40px;
+}
+.dropdown-menu li a {
+    color:white;
+    height:40px;
+    line-height:30px;
+}
+.dropdown-menu li:hover {
+    background: #149faa;
+}
+.dropdown-menu li a:hover {
+    color:white;
+}
+
+/* header2 nav styles */
+.navbar {
+    min-height: 70px;
+}
+.navbar.navbar-slim {
+    min-height: 30px;
+}
+#top #brand {
+    padding-top: 20px !important;
+    margin-left: 20px !important;
+}
+
+/* Typeahead */
+.typeahead-image {
+    background: white;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #eee;
+    width: 150px;
+    text-align:center;
+}
+.typeahead-image img {
+    vertical-align: middle;
+    max-height: 35px;
+    float:none;
+    margin: 0 auto;
+}
+.secondary .tt-dropdown-menu, #search-form .tt-dropdown-menu {
+    border-radius: 0px;
+    margin-top:-10px;
+    z-index: 300 !important;
+}
+.tt-suggestion p {
+    font-family: 'bentonsanslight', Helvetica, Arial, sans-serif;
+    font-size: 14px !important;
+    font-weight: normal !important;
+}
+.tt-hint {
+    width: 100%;
+    height: 60px;
+}
+
+/* Header1 styles */
+.ddm3-h {
+    min-width: 150px;
+    max-width: 150px;
+}
+.ddm3 {
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    left: 15px;
+    min-width: 150px;
+    max-width: 150px;
+}
+.ddm3 li {
+    height: 40px;
+}
+.ddm3 li a {
+    height: 40px;
+    line-height:20px;
+    padding: 10px 20px !important;
+    font-weight: bold;
+}
+@media only screen and (max-width : 1200px) {
+    #brand img {
+        height: 60px;
+    }
+}
+
+/* Header2 styles */
+header #header form {
+    margin-left: 0px !important;
+}
+@media (max-width: 768px) {
+    #header input.btn.btn-lg.btn-primary {
+        margin-top: 20px;
+        width: 220px;
+    }
+}
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+    .twitter-typeahead {
+        width: 100% !important;
+    }
+}
+header #header ul {
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+header #header ul li {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+header #header ul li:after {
+    content: '|';
+    color: white;
+    font-weight:bold;
+}
+header #header ul li:nth-child(4):after {
+    content: '';
+}
+header #header ul li a {
+    color:white;
+    text-decoration: none;
+    padding-right:5px;
+    padding-left: 5px;
+}
+
+/* Sign up */
+.signup-form input[name=email],
+.signup-form input[name=newpass1],
+.signup-form input[name=newpass2] {
+    border: 1px solid black;
+}
+.signup-form input[name=email]:focus,
+.signup-form input[name=newpass1]:focus,
+.signup-form input[name=newpass2]:focus {
+    border: 1px solid black !important;
+}
+
+/* Mainpage */
+.modal-footer {
+    background: none repeat scroll 0 0 #66c3d4;
+    height: 60px;
+    margin-top: -10px !important;
+}
+.modal-body h3 {
+    font-size:3em;
+    margin-top:0px;
+}
+.modal-body h4{
+    color:#553445;
+}
+.modal-body .screenshot img {
+    width: 100%;
+}
+.install-upper, .install-upper-safari{
+    position: absolute;
+    top:0;
+    position: fixed;
+    width:100%;
+    background:#000;
+    height:100px;
+}
+.install-upper img, .install-upper-safari img{
+    margin-top:20px;
+    margin-right:10px;
+    /*float:right;*/
+    display:inline-block;
+}
+.install-upper img.installation-right, .install-upper-safari img.installation-right {
+    margin-right:0px;
+    margin-left:20px;
+}
+.install-upper p, .install-upper-safari p {
+    margin-top:25px;
+    color:#FFF;
+    font-size: 2em;
+    font-family:'bentonsansbold', Helvetica, Arial, sans-serif;
+    /*float:right;*/
+    display:inline-block;
+}
+.install-upper p span, .install-upper-safari p span{
+    color:#FFC926;
+}
+.install-lower{
+    position: absolute;
+    bottom:0;
+    position: fixed;
+    width:100%;
+    background:#000;
+    height:220px;
+    text-align: center;
+}
+.install-lower img{
+    margin-top:20px;
+    float:left;
+    margin-left:20px;
+}
+.install-lower p{
+    margin-top:25px;
+    color:#FFF;
+    font-size: 2em;
+    font-family:'bentonsansbold', Helvetica, Arial, sans-serif;
+    float:left;
+}
+.install-lower p span{
+    color:#FFC926;
+}
+.chrome-upper {
+    position:relative;
+    margin:0 auto;
+    text-align:left;
+    clear:left;
+    height:auto;
+    z-index: 0;
+    text-align:center;
+    top: -294px;
+    background: white;
+    width: 166px;
+    padding: 10px;
+}
+.customSelect {
+    background: none;
+}
+#add-sign-up select.hasCustomSelect {
+    left: 33px;
+    margin-left: 0px;
+}
+#add-sign-up form input[type="submit"] {
+    top: 0px;
+}
+
+/* FTS Signup */
+#video h1 {
+    color:white;
+}
+#video h1 span {
+    border-bottom: 3px solid #66c3d4;
+}
+#video {
+    background: #533445;
+}
+.btn-border-right {
+    border-left: 0;
+    border-top: 0;
+    border-right: 4px solid #cd1b23;
+    border-bottom: 4px solid #cd1b23;
+}
+.btn-primary:hover {
+    background-color: #CA3434;
+    border-color: #CA3434;
+    color: #FFF;
+}
+#stores .store-item img {
+    height: 50px;
+}
+#easy-apps .extra ul, #easy-apps .extra p {
+    text-align: left;
+}
+#app-coming-soon-form {
+    text-align:center;
+}
+#app-coming-soon-form input[name=email] {
+    width: 100% !important;
+}
+#app-coming-soon-form button {
+    margin-top: 20px;
+}
+#app-signup-success {
+    font-size: 20px;
+    font-weight: bold;
+}
+.counter .container #counter-wrapper {
+    font-family: 'bentonsans', Helvetica, Arial, sans-serif;
+}
+
+/* jQuery Countdown styles 2.0.0. */
+.is-countdown {
+    padding-top:25px;
+    background-color: #eee;
+}
+.countdown-rtl {
+    direction: rtl;
+}
+.countdown-holding span {
+    color: #888;
+}
+.countdown-row {
+    clear: both;
+    width: 100%;
+    padding: 0px 2px;
+    text-align: center;
+}
+.countdown-show1 .countdown-section {
+    width: 98%;
+}
+.countdown-show2 .countdown-section {
+    width: 48%;
+}
+.countdown-show3 .countdown-section {
+    width: 32.5%;
+}
+.countdown-show4 .countdown-section {
+    width: 24.5%;
+}
+.countdown-show5 .countdown-section {
+    width: 19.5%;
+}
+.countdown-show6 .countdown-section {
+    width: 16.25%;
+}
+.countdown-show7 .countdown-section {
+    width: 14%;
+}
+.countdown-section {
+    display: block;
+    float: left;
+    font-size: 75%;
+    text-align: center;
+}
+.countdown-amount {
+    font-size: 300%;
+}
+.countdown-period {
+    display: block;
+    font-size:150%;
+}
+.countdown-descr {
+    display: block;
+    width: 100%;
+}
+.counter .container #counter-wrapper {
+    color:#e24e4e ;
+}
+
+/* hide need more info on home */
+.counter {
+    margin-bottom: -60px;
+}
+
+/* FTS New */
+.register-facebook {
+    background: url(/img/register-fb.png) no-repeat top left;
+    background-size: 300px;
+    width: 53px;
+    border-radius: 8px;
+    height: 52px;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    z-index: 10000;
+    float:left;
+}
+#or {
+    float:left;
+    padding: 16px;
+}
+
+/* FTS New Gift */
+#display .screen {
+    background-image: url(//dxw3joesmwyqi.cloudfront.net/img/video-shop-online3.jpg);
+    background-size: 100% 100%;
+    background-color: rgba(98, 98, 98, 0.77);
+    background-blend-mode: multiply;
+}
+#computer-slide #display #play-button {
+    opacity: 0.7;
+    margin-top: 17%;
+    width:170px;
+    cursor:pointer;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #play-button {
+        opacity: 1;
+        margin-left: 30%;
+        width: 40%;
+        height: 60% !important;
+        position:relative;
+        top:40px;
+    }
+    #display .screen {
+        background: none;
+    }
+}
+#play-button:hover {
+    opacity:1;
+}
+.video, .play {
+    height: 100%;
+}
+.play {
+    text-align:center;
+}

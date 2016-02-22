@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CofundRaising</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="user-scalable=0, initial-scale=0.5, width=device-width">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/web.css">
+        <link rel="stylesheet" href="css/customSelect.css">
+        <link rel="stylesheet" href="css/lean-slider.css">
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <style>
+        .lean-slider img {
+            width: 576px;
+            height: 371px;
+        }
+        .lean-slider {
+            position: relative;
+            left: 163px;
+            top: 36px;
+        }
+        </style>
+    </head>
+    <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container container-fluid">
+   
+      <div align="center"><img src="img/about/coflogo.gif" border="0" height="75">
+                  </div>
+      <div class="pull-Middle">
+                  </div>
+          </div>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <!-- /.container-fluid -->
+            </div>
+        </nav>
+         <div class="clearfix"></div>
+       <div id="content" class="about">
+        <div class="container">
+            <h1>Our Brands and Sponsors</h1>
+             	  <div id="computer-slide">
+                    <!--<div id="display">
+                        <div class="screen">
+                            <img src="/img/about/ftsscreen.JPG"/>
+                        </div>
+                        <div class="screen">
+                            <img src="/img/about/pprkscreen.JPG"/>
+                        </div>
+                        <div class="screen">
+                            <img src="/img/about/brandsscreen.JPG"/>
+                        </div>
+                        <div class="screen">
+                            <img src="/img/about/coupons.JPG"/>
+                        </div>
+                    </div>-->
+                    
+                    <div id="slider">
+                      <div class="slide1">
+                        <img src="/img/about/ftsscreen.JPG"/>
+                      </div>
+                      <div class="slide2">
+                        <img src="/img/about/pprkscreen.JPG"/>
+                      </div>
+                      <div class="slide3">
+                        <img src="/img/about/brandsscreen.JPG"/>
+                      </div>
+                      <div class="slide4">
+                        <img src="/img/about/coupons.JPG"/>
+                      </div>
+                    </div>
+                    
+                  </div>
+            <div id="secondary-nav">
+                <div class="left-clip"></div>             		                
+                                         <ul>                                                           
+                    <li><a href="#e1" title="">Education</a></li>
+                    <li><a href="#o1" title="">Organizations</a></li>
+                    <li><a href="#cb1" title="">Cash Back</a></li>
+                    <li><a href="#ap1" title="">Apps</a></li>
+                    <li><a href="#m1" title="">Mission</a></li>
+                <ul>
+                <div class="right-clip"></div>
+            </div>
+            
+            <div class="clearfix"></div>
+            <div class="wrapper">
+
+                <section class="left">
+                    <h2 id="e1">K-12 and College Fundraising</h2>
+                  <div class="pull-left">
+                        <h3>Education is Our Focus</h3>
+                        <p>With <strong>ForTheSchools.com</strong> CoFundraising provides <u>all</u> K-12 private, public, or charter schools, Colleges, booster clubs, PTA/PTO’s, bands, drama clubs and… 
+                        	the list goes on and on, with a unique concept in charitable giving… <strong>Automatic Fundraising.</strong> As parents, we’ve witnessed first-hand the countless hours 
+                        	involved in creating a fundraising campaign.  We’ve also walked the neighborhoods with our children while they sell door to door and we’ve solicited friends, co-workers 
+                        	and relatives again and again to contribute to another “thon” of one sort or another.  <br><br>
+                        	At ForTheSchools.com, you <strong>don’t do anything</strong> you don’t already do.  
+                        	Just make a purchase at one of over 1,000 online stores and <strong>we contribute</strong> a percentage of that purchase back <strong>to your School</strong> or group… 
+                        	Automatically.  No one needs to save 
+                        	receipts, cut out box tops or mail in rebate forms, it all automated! We also have an ever growing suite of tools designed to help schools and groups fundraise even more 
+                        	efficiently, engage with their parents,  and increase parental volunteerism! We put the Fun in <strong>Fun</strong>draising!
+                       </p>
+                    </div>
+                    <div class="pull-right">
+                        <img src="http://test1.fortheschools.com/img/bg-totally.png" alt="" width="350" class="img-responsive pull-left" />
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="divider"></div>
+                </section>
+
+                <section class="right">
+                    <h2 id="o1">Organizational Charities</h2>
+                    <div class="pull-right">
+                    	 <h3>How We Help the Cause</h3>
+                        <p><strong>CoFundraising</strong> has created a completely new and separate revenue stream for <strong>charitable organizations</strong>.  
+                        	Instead of tapping into the shrinking pool of money earmarked for charity, 
+                        	we utilize the activity of online shopping already done by millions of Americans each day, then <strong> we donate to your charity</strong> a percentage of that transaction back to the charity, 
+                        	automatically! <br><br>
+                        	Just like with the schools, there’s nothing for you to do aside from deposit your check. Right now we are only set up for churches, <strong>ForTheChurches.com</strong>, 
+                        	but stop back very soon as we grow we will be branching out into other sectors!
+</p>
+                    </div>
+                    <div class="pull-left">
+                        <img src="http://test1.fortheschools.com/img/wwpb.png" alt="" width="300" class="img-responsive pull-right" />
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="divider"></div>
+                </section>
+                
+								<section class="left">
+                    <h2 id="cb1">Cash Back</h2>
+                    <div class="pull-left">
+                 <h3>We Pay You to Shop!</h3>
+                        <p>CoFundraising isn’t limited only to charities, we also have a group of traditional cash back websites, <strong>PursePerks.com & WalletPerks.com</strong> to name a couple.  
+                        	Shop at either one of those websites and enjoy fantastic coupons, special deals and 100% of the cash back reward goes right to you personally. Nothing easier then automatic cash back!
+                        	</p>
+                             </div>
+                    <div class="pull-right">
+                        <img src="http://www.purseperks.com/img/bg-my-store.png" width="350" alt="" class="img-responsive pull-left" />
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="divider"></div>
+                </section>
+                
+                <section class="right">
+                    <h2 id="ap1">Automatic Apps</h2>
+                    <div class="pull-right">
+                    	<h3>We have an App for that!</h3>
+                        <p>Our sites APPS are the easiest way of supporting your cause or earning cash back. 
+                        	Simply install our <strong>100% safe and secure app</strong>, and it <strong>automatically</strong> reminds you to 
+                        	activate your </strong>fundraising or cash back</strong> at participating stores. <br><br>
+                        	<strong>Never do any busy work again, just shop and raise money</strong> for your cause or yourself! Our FREE Apps are truly built with 100% user satisfaction gauranteed!
+                        	</p>
+                    </div>
+                    <div class="pull-left">
+                        <img src="http://test1.fortheschools.com/img/bg-automatic.png" width="350" alt="" class="img-responsive pull-right" />
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="divider"></div>
+                </section>
+
+                <section class="left">
+                    <h2 id="m1">Our Mission</h2>
+                    <div class="pull-left">
+                    	<h3>Our Goal is to Help People with Automatic Fundraising</h3>
+                        <p>The <strong>CoFundraising</strong> family of web properties was founded with the idea of making fundraising easier for schools, groups, parents, and kids.  
+                        	Rather than sending our children door to door selling candy bars, gift wrap, or cheesecake we created an easier and safer way for groups to take advantage of 
+                        	something their members already do,<strong> shop online</strong>. <br><br>
+                        	Each time someone makes a purchase at one of over 1,000 participating online merchants (and growing), we contribute 
+                        	a percentage of each sale directly to the charity of your choice, or in the case of our <strong>cash back </strong>websites, back to you!
+                	</p>
+                </div>
+                    <div class="pull-left">
+                        <img src="http://test1.fortheschools.com/img/bg-totally.png" width="350" alt="" class="img-responsive pull-left"/>
+                
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="divider"></div>
+                </section>
+            </div>
+                       </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <ul class="col-xs-12 col-sm-12 col-lg-9">
+                <li><a href="#">Contact / Partner </a></li>
+                <li><a href="#">About</a></li>
+                         </ul>
+            <p class="col-xs-12 col-sm-12 col-lg-3">Copyright © 2014 All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/plugins/jquery.customSelect.min.js"></script>
+    <script src="js/plugins/jquery.cycle.all.js"></script>
+    <script src="js/plugins/jquery.mousewheel.min.js"></script>
+    <script src="js/plugins/circles.js"></script>
+    <script src="/js/bootstrap/bootstrap.min.js"></script>
+    <script src="/js/fortheschools/global.js"></script>
+    <script src="/js/fortheschools/about.js"></script>
+    <script src="/js/plugins/lean-slider.js"></script>
+<script>
+$(document).ready(function() {
+    $('#slider').leanSlider();
+});
+</script>
+
+</body>
+</html>

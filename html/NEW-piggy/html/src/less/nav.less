@@ -1,0 +1,147 @@
+//
+// Navigation
+// --------------------------------------------------
+
+.nav{
+	padding-top: 0px;
+
+	li{
+		margin-right: 0px;
+		
+		@media(min-width: @screen-sm-min) {
+			margin-right: 5px;
+		}
+		@media(min-width: @screen-md-min) {
+			margin-right: 10px;
+		}
+		&:last-child{
+			margin-right: 0px;
+		}
+		a{
+			font-family: @font-family-heading-l;
+			font-weight: normal;
+			text-transform: uppercase;
+			color:@white;
+			background:none;
+			font-size: 1.06em;
+			padding-bottom: 18px;
+			border-radius: 6px;
+			.transition(all 0.5s ease);
+			&:hover,&:focus{
+				background: rgba(28,104,94,0.4);
+				
+			}
+
+			@media(min-width: @screen-sm-min) {
+				font-size: 0.9em;
+			}
+			@media(min-width: @screen-md-min) {
+				font-size: 0.98em;
+			}
+			@media(min-width: @screen-lg-min) {
+				font-size: 1.06em;
+			}
+
+		}
+	}
+}
+
+
+nav.navbar-collapse{
+	margin-top: 10px;
+
+	@media(min-width: @screen-sm-min){
+		margin-top: 10px;
+	}
+	@media(min-width: @screen-md-min){
+		margin-top: 10px;
+	}
+	@media(min-width: @screen-lg-min){
+		margin-top: 10px;
+	}
+
+	ul{
+		//width: 100%;
+		li{
+			position: relative;
+			a{
+				padding:12px 20px;
+
+				@media(min-width: @screen-sm-min){
+					padding:8px 10px;
+				}
+				@media(min-width: @screen-md-min){
+					padding:10px 14px;
+				}
+				@media(min-width: @screen-lg-min){
+					padding:12px 20px;
+				}
+
+			}
+		}
+	}
+}
+
+ul.dropdown-menu{
+	background-clip: padding-box;
+	background-color: @black;
+	border-radius: 4px;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+	display: none;
+	float: left;
+	font-size: 14px;
+	left: 0;
+	list-style: outside none none;
+	margin: 2px 0 0;
+	min-width: 160px;
+	padding: 5px 0;
+	position: relative;
+	text-align: left;
+	top: 100%;
+	z-index: 1000;
+	width: 100%;
+
+	@media(min-width: @screen-sm-min) {
+		position: absolute;
+		width: auto;
+		float: left;
+	}
+
+	li{
+		text-align: left;
+		a{
+			padding:10px !important;
+		}
+		&:last-child{
+			float: left !important;
+		}
+	}
+}
+
+
+.navbar-nav .open .dropdown-menu{
+	float: left;
+	width: 100%;
+	padding-left: 50px;
+	margin-bottom: 30px;
+	position: relative;
+
+	@media(min-width: @screen-sm-min){
+		float: none;
+		width: auto;
+		padding-left: 10px;
+		margin-bottom: 0px;
+		position: absolute;
+	}
+
+}
+
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: @black;
+  border:none;
+}
+
+.navbar-right {
+    margin-right: 0;
+ }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+	<dict>
+		<key>Extension Updates</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.ci.Piggy</string>
+				<key>Developer Identifier</key>
+				<string>NS7B5Z34K7</string>
+				<key>CFBundleVersion</key>
+				<string>1.3.1.2</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.3.1.2</string>
+				<key>URL</key>
+				<string>https://www.joinpiggy.com/appfiles/Piggy.safariextz</string>
+			</dict>
+		</array>
+	</dict>
+</plist>

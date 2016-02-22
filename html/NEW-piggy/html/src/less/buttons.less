@@ -1,0 +1,74 @@
+//
+// Buttons
+// --------------------------------------------------
+
+.btn{
+	border-radius: 10px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.btn-sm{
+	border-radius: 6px;
+	text-transform: uppercase;
+	padding:3px 8px;
+	font-size: 0.86em;
+	font-family: @font-family-base;
+	line-height: none;
+	font-weight: 700;
+}
+
+.btn-md{
+	text-transform: uppercase;
+	padding:10px 20px 8px;
+	font-size: 1.06em;
+	font-family: @font-family-base;
+	line-height: 1.3em;
+}
+
+.btn-lg{
+	text-transform: uppercase;
+	padding:9px 24px;
+	font-size: 1.2em;
+	font-family: @font-family-base;
+
+	@media(min-width: @screen-sm-min){
+		padding:9px 30px;
+		font-size: 1.2em;
+	}
+}
+
+.btn-forms{
+	padding:10px 40px 8px;
+}
+
+.btn-primary {
+   .button-variant(white; @btn-primary-bg; @btn-primary-border);
+   .transition(background 0.5s ease);
+   text-shadow: none;
+   font-weight: normal;
+}
+
+.btn-secundary {
+   .button-variant(@btn-secundary-color; @btn-secundary-bg; @btn-secundary-border);
+   .transition(background 0.5s ease);
+   text-shadow:none;
+}
+
+.btn-terciary {
+   .button-variant(@btn-terciary-color; @btn-terciary-bg; @btn-terciary-border);
+   .transition(background 0.5s ease);
+   text-shadow:none;
+}
+
+.btn-outline{
+	.button-variant(@btn-secundary-color; @btn-transparent-color; @white);
+	.transition(background 0.5s ease);
+	text-shadow:none;
+}
+
+.btn-gray{
+	.button-variant(@white; @gray-med; @gray-med);
+	.transition(background 0.5s ease);
+	text-shadow:none;
+}
